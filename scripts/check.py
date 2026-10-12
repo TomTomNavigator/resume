@@ -128,8 +128,34 @@ def main() -> int:
     # whose continuation lines were under-indented, which silently terminated
     # the block and made the rest of the file unparseable.
     for workflow in sorted((ROOT / ".github" / "workflows").glob("*.y*ml")):
-        if load(workflow) is not None:
-            print(f"  {workflow.relative_to(ROOT)}: parses")
+        parsed = load(workflow)
+        if parsed is None:
+            continue
+        print(f"  {workflow.relative_to(ROOT)}: parses")
+
+    # Only one workflow may publish to Pages. Enabling Pages in the web UI
+    # drops a starter .github/workflows/static.yml that uploads the *entire
+    # repository root* as the site — which serves nothing useful and collides
+    # on the github-pages artifact with the real build.
+    pages_publishers = []
+    for workflow in sorted((ROOT / ".github" / "workflows").glob("*.y*ml")):
+        try:
+            with workflow.open(encoding="utf-8") as handle:
+                text = handle.read()
+        except OSError:
+            continue
+        if "upload-pages-artifact" in text:
+            pages_publishers.append(workflow.name)
+
+    if len(pages_publishers) > 1:
+        fail(
+            "more than one workflow publishes to GitHub Pages: "
+            + ", ".join(pages_publishers)
+            + " — keep only the one that builds the CV (build.yml) and delete the "
+            "starter static.yml that Pages creates when you enable it in Settings"
+        )
+    elif pages_publishers:
+        print(f"  Pages publisher: {pages_publishers[0]} (sole)")
 
     # ---- report ------------------------------------------------------------
     for message in warnings:
