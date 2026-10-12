@@ -297,19 +297,23 @@ def markdown_to_docx(md_path: Path, docx_path: Path) -> bool:
     return True
 
 
-def verify_text_layer(pdf_path: Path) -> int:
-    """Assert the PDF has real extractable text.
+def verify_text_layer(pdf_path: Path) -> tuple[int, int]:
+    """Return (pages, extractable characters) for a PDF.
 
-    This is the whole reason for moving off the Jekyll theme, so it is checked
-    on every build rather than trusted. The old html2canvas export produced an
-    image-only PDF where this returns 0 characters.
+    The text-layer check is the whole reason for moving off the Jekyll theme,
+    so it is asserted on every build rather than trusted. The old html2canvas
+    export produced an image-only PDF where the character count is 0.
+
+    Page count is reported too, because a Director-level CV is expected to fit
+    two pages and it is not obvious that from the YAML alone.
     """
     try:
         from pypdf import PdfReader
     except ImportError:
-        return -1
+        return -1, -1
     reader = PdfReader(str(pdf_path))
-    return sum(len(page.extract_text() or "") for page in reader.pages)
+    chars = sum(len(page.extract_text() or "") for page in reader.pages)
+    return len(reader.pages), chars
 
 
 # --------------------------------------------------------------------------
@@ -333,6 +337,7 @@ def build(names: list[str] | None, want_docx: bool, want_png: bool = False) -> i
             sys.exit(f"error: unknown variant(s): {', '.join(sorted(missing))}")
 
     failures = 0
+    overflows: list[str] = []
     for variant_path in selected:
         name = variant_path.stem
         try:
@@ -345,15 +350,20 @@ def build(names: list[str] | None, want_docx: bool, want_png: bool = False) -> i
                 failures += 1
                 continue
 
-            chars = verify_text_layer(pdf)
+            pages, chars = verify_text_layer(pdf)
             if chars == 0:
                 print(f"  FAIL  {name}: PDF has no text layer (ATS-unreadable)")
                 failures += 1
                 continue
             if chars < 0:
-                note = "text layer not checked (pypdf missing)"
+                note = "page count / text layer not checked (pypdf missing)"
             else:
-                note = f"{chars:,} chars extractable"
+                if pages > 2:
+                    note = f"**{pages} pages**"
+                    overflows.append(name)
+                else:
+                    note = f"{pages} pages"
+                note += f", {chars:,} chars extractable"
 
             if want_docx:
                 md = out / f"{stem}.md"
@@ -372,6 +382,13 @@ def build(names: list[str] | None, want_docx: bool, want_png: bool = False) -> i
 
     print()
     print(f"{len(selected) - failures}/{len(selected)} variants built -> {DIST}")
+    if overflows:
+        # A Director-level CV is expected to fit two pages. This is a warning
+        # rather than a failure: a deliberate three-page document is legitimate
+        # in some markets, it just should not happen by accident.
+        print(f"\n  Note: over two pages -> {', '.join(overflows)}")
+        print("        Trim a competency row or a highlight, or shorten a "
+              "placeholder, before sending.")
     return 1 if failures else 0
 
 

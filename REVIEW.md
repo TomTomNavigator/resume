@@ -11,6 +11,38 @@ first. Items 4+ are polish.
 
 ---
 
+## Resolved since the first pass
+
+Supplying your LinkedIn profile closed several of these outright:
+
+- **The 2012–2016 gap is gone.** The employer is **ATOS IT Solutions & Services
+  GmbH**, the title **IT Engineer**, running **Jun 2012 – Apr 2016**. "PSoD" is
+  *Project Service on Demand* — an in-house subscription service with an
+  automated billing agent and custom reporting dashboards. That detail was
+  buried in prose in your old CV and is one of the better bridges you have into
+  a SaaS Solutions Engineering career: subscription delivery, metering and
+  commercial packaging, before you ever worked for Okta. It is now a headline
+  bullet. Only the city is still open.
+- **The Okta progression is now accurate.** LinkedIn shows Senior SE
+  (Mar 2020 – Mar 2023) and Team Lead (Feb 2023 – Feb 2024) as *completed*
+  roles, not concurrent ones. Your old CV listed the Senior SE role as
+  "March 2020 – Present", which is what made it read as a parallel job. It is
+  now two sequential entries: Senior SE / Team Lead, then Sr. Manager.
+- **Team size is confirmed at 12 direct reports**, covering Commercial,
+  Enterprise and Strategic accounts, and made up of dedicated Okta and Auth0
+  SEs. Previously this was buried in prose.
+- **The talent-development metric is answered.** Promotions at every level —
+  Associate→SE, SE→Senior, Senior→Principal — plus SDRs coached into technical
+  SE roles. That was one of my placeholders and it is stronger than anything I
+  would have suggested.
+- **Team Lead scope expanded.** The role covered Emerging & Corporate in CEE
+  *and* Team Lead Solutions Engineering Switzerland. Both are now stated.
+- **Community presence added.** PreSales Collective (since 2020) and Presales &
+  Pretzels SE Networking Munich (since 2022) now appear under Speaking,
+  Writing & Community.
+
+---
+
 ## 1. The headline — what title to claim
 
 Appears in the header of all six variants. This is the single highest-leverage
@@ -30,48 +62,28 @@ that is the target role, not necessarily your current one. Decide which you want
 
 File: `content/en/base.yaml` and `content/de/base.yaml`, key `headline`.
 
-## 2. The 2012–2016 gap — a missing job
+## 2. The Atos entry — one field left
 
-Your CV had **no entry** for the SharePoint / Project Server role you describe in
-the summary prose, and nothing at all between 2012 and 2016. A four-year hole in
-a ten-year career gets asked about in the first interview.
+Everything here is resolved except the **city**. LinkedIn lists the role under
+Atos with no location, but AvePoint in Munich followed immediately in Apr 2016,
+so it is very likely Munich. It is marked `[ADD: city]` rather than guessed.
 
-An entry now exists but is a placeholder, with dates deliberately left blank.
-Inventing a date range would have been worse than an empty field.
-
-Needed:
-
-- The full legal name of the employer. Your CV calls it **"PSoD"** — I have not
-  guessed what that expands to. Give the name as it would appear on a
-  reference or a LinkedIn profile.
-- Exact job title.
-- City.
-- Start and end dates (month/year is enough).
-- Scale: roughly how many users, SharePoint sites, instances, or projects.
-- One concrete problem you solved there — a migration, a rollout, an uptime or
-  performance improvement. This is the bullet that makes the entry worth three
-  lines instead of one.
+Also optional but worth adding: the scale of the SharePoint / Project Server
+estate, and one concrete problem you solved. The current third bullet asks for
+this — it is the difference between a one-line entry and a credible one.
 
 File: `content/*/base.yaml`, entry `__merge_key__: psod-sharepoint`.
 
-## 3. Metrics — the numbers you do not currently have
+## 3. Metrics — the numbers still missing
 
-Your previous CV contained these figures in total: `5`, `7`, `12`, `1.5M ARR`,
-`>200%`, `>300%`, `team of 5`. For a Director-level application that is not
-enough. The `Leadership Snapshot` block was built to hold them — it is the first
-block a hiring manager reads.
-
-Needed, ideally for the last 2–3 fiscal years:
+The promotion-track metric is now answered (see above). These remain:
 
 | Metric | Why it matters |
 |---|---|
 | Regional ARR you support or own | The size of the business you are accountable for. If you only support and do not own it, say so — that is a legitimate scope. |
 | Win rate, or deal conversion % | Shows whether the team is effective, not just large. |
-| Number of SEs hired via your PreSales Academy | Turns "I ran an academy" into a recruiting result. |
-| Markets covered by those hires | Proves multi-country execution, which is the whole point of a CEE remit. |
+| Number of SEs hired via the SE Academy | The CV says you drove recruitment for it; a count makes it a result. |
 | Average time-to-fill | Optional, but strong if it is good. |
-| SEs promoted into Lead or Architect roles | The clearest single proof that you develop people rather than just staffing them. |
-| Forecast accuracy | Only if you actually own forecasting. Do not claim it otherwise. |
 
 **Use whichever numbers you can defend under questioning.** A metric you cannot
 explain in the interview is worse than an absent one. If you genuinely do not
@@ -80,7 +92,7 @@ know a figure, say so in the interview rather than guessing on paper.
 Files: `content/*/base.yaml` → `Leadership Snapshot` / `Kennzahlen`, and the
 matching block in each variant.
 
-## 4. The AvePoint 2018 award conflict — needs resolving
+## 4. The AvePoint 2018 award conflict — still needs resolving
 
 Your CV contains two claims that cannot both be true:
 
@@ -90,9 +102,12 @@ Your CV contains two claims that cannot both be true:
 Same year, two different ranks, and the lower rank has the higher attainment.
 One of these is a typo. As written it invites a question you will not enjoy.
 
-Needed: the correct rank for 2018, and the attainment percentage. The current
-CV claims `#1 SE worldwide 2018` in the experience section and `#2, 2019, >200%`
-in the variants.
+Your LinkedIn profile does not list the AvePoint awards at all, so it cannot
+settle this either. Needed: the correct rank for 2018, and the attainment
+percentage.
+
+Note the timings, since these attach to different periods: Technical Solutions
+Professional Apr 2016 – Jan 2019, Senior Solution Engineer Jan 2019 – Feb 2020.
 
 ## 5. Xing profile URL
 
@@ -166,15 +181,24 @@ entirely — the EN and DE variants both have it as a removable row inside
 
 These were judgement calls, not errors. Push back if you disagree.
 
-**Three overlapping Okta roles became one.** Your CV listed `Sr. Manager`
-(Feb 2024 –), `Team Lead` (Feb 2023 – Feb 2024) and `Senior Solutions Engineer`
-(March 2020 –) as three separate entries. They overlap, so it reads as three
-concurrent jobs at one employer and triple-counts about four years. It is now one
-entry with the hands-on SE mandate stated in the summary rather than shown as a
-parallel job.
+**Three overlapping Okta roles became two sequential ones.** Your CV listed
+`Sr. Manager` (Feb 2024 –), `Team Lead` (Feb 2023 – Feb 2024) and `Senior
+Solutions Engineer` (March 2020 – **Present**) as three entries. LinkedIn shows
+the Senior SE role actually ended in Mar 2023, so the "Present" was the error —
+and that single wrong end date is what made three sequential promotions look
+like three concurrent jobs. It now reads as the promotion track it was: Senior SE
+→ Team Lead → Sr. Manager → acting Director of PreSales.
 
-**The 2012–2016 role now exists.** Even with placeholders, an empty field is
-visible and fixable; a missing role is invisible and indefensible.
+**"Grew the team 5 to 12"** comes from your old CV, which described leading "a
+team of 5 SEs" as Team Lead, against the 12 direct reports LinkedIn confirms
+now. Worth a sanity check that the 5 is the figure you want — it is the baseline
+of your growth claim.
+
+**The awards attach to the Senior SE period, not the manager role.** President's
+Club FY22/FY23, EMEA PreSales Rockstar FY23 and Technical Hot Shot FY22 were all
+earned before you were Sr. Manager. They sit in a separate section rather than
+attached to the current role, which is the honest presentation. Be aware of it
+if a reference checks dates.
 
 **The Projects section was removed.** 3D printing, Ender3/Klipper firmware, a
 Proxmox homelab and running evilginx. At Director level this reads as a senior

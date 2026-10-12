@@ -31,7 +31,7 @@ cv:
       - label: Vertriebsvolumen
         details: "[ADD: regionaler ARR, unterstützt/verantwortet, mit Zeitraum]"
       - label: Team
-        details: 5 → 12 SEs in über 5 CEE-Märkten, gegliedert in Core, Auth0 und EMEA Architect
+        details: 12 direkte Mitarbeitende für Commercial-, Enterprise- und Strategic-Accounts; Streams Core, Auth0, EMEA Architect
       - label: Größter Deal
         details: Lead SE im größten Workforce-Deal der CEE-Region — **1,5 Mio. USD ARR**
       - label: Performance
@@ -39,18 +39,18 @@ cv:
       - label: Motion
         details: MEDDICC, Discovery, PoC-Strukturierung, Deal Desk, Preis- und Lizenzmodelle
       - label: Erfolgsbilanz
-        details: AvePoint #1 Sales Engineer weltweit 2018; über 200 % der Zielvorgabe 2019
+        details: "Zweimal President's Club FY22/FY23; AvePoint #1 SE weltweit 2018; über 200 % der Zielvorgabe 2019"
 
     Berufserfahrung:
       - __merge_key__: okta-leadership
         highlights:
-          - "Verantwortung für Solutions Engineering mit einem Volumen von [ADD: ARR-Zahl] in **Deutschland, Österreich, der Schweiz und Italien** sowie weiteren CEE-Märkten — sowohl Okta als auch Auth0."
-          - "Lead Solutions Engineer im größten Workforce-Identity-Deal der CEE-Region — **1,5 Mio. USD ARR** — verantwortlich von Discovery und Architektur über Security Review bis zum gemeinsamen Abschluss."
-          - "Aufbau des CEE-Teams von **5 auf 12** mit Umstrukturierung in drei Streams — Core SEs, Auth0-Spezialisten und EMEA-weite Solution Architects — zur Steigerung spezialisierter Kapazität gegen die Pipeline."
-          - "Erhalte eine direkte Kundennähe: Discovery, PoCs und gemeinsame Termine in strategischen Accounts, statt diese vollständig an das Team zu delegieren."
-          - "Aufbau und Durchführung der **PreSales Academy** für CEE mit Einstellungen in mehreren Märkten einschließlich Italien — mehr Bench-Kapazität ohne steigende Personalkosten je Deal."
-          - "Coaching von SEs in Alliances- und Core-Teams zu kommerzieller Qualifizierung sowie Begleitung interner Karrierewechsel in PreSales-Rollen."
-          - "Konzeption des verteilten Arbeitsmodells — montägliche Slack-Check-ins und Zoom-Lightning-Talks — zur Ausrichtung eines pan-CEE-Teams ohne wiederkehrende Status-Meetings."
+          - "Leitung des gesamten CEE-Bereichs in **kommissarischer Director-Funktion** — **12 direkte Mitarbeitende** für Commercial-, Enterprise- und Strategic-Accounts — mit Verantwortung für regionale PreSales-Strategie und -Operations, sowohl Okta als auch Auth0."
+          - "Lead Solutions Engineer im größten Workforce-Identity-Deal der CEE-Region zu diesem Zeitpunkt — **1,5 Mio. USD ARR** — von Discovery und Architektur über Security Review bis zum gemeinsamen Abschluss."
+          - "Team von **5 auf 12** aufgebaut und in die Streams Core SE, Auth0-Spezialisten und EMEA-weite Solution Architects gegliedert — zur Steigerung spezialisierter Kapazität gegen die Pipeline."
+          - "Erhalte direkte Kundennähe: Mitwirkung in komplexen Vertriebszyklen und Durchführung anspruchsvoller PoCs, statt die schwierigsten Deals vollständig zu delegieren."
+          - "Verantwortung für die Recruiting-Pipeline der **Okta SE Academy** in mehreren Regionen einschließlich Italien sowie Coaching zur kommerziellen Qualifizierung für SEs in Core- und Alliances-Teams."
+          - "Zweimal President's Club (FY22, FY23), dazu EMEA PreSales Rockstar (FY23) und Technical Hot Shot CEE (FY22)."
+          - "Zuvor #1 Sales Engineer **weltweit** bei AvePoint 2018 und über **200 % der Zielvorgabe** 2019."
 
       - __merge_key__: avepoint-senior-se
         highlights:

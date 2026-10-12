@@ -1,9 +1,13 @@
 # =============================================================================
 # Design — Deutsch / DACH
 #
-# Layout identisch zum EN-Lebenslauf, damit beide Sprachversionen
-# visuell austauschbar bleiben. Nur die Sprache des Datumsformats
-# ("heute" statt "gegenwärtig") unterscheidet sich, siehe settings.yaml.
+# Grundsätzlich dasselbe Layout wie EN, damit beide Sprachversionen visuell
+# austauschbar bleiben. Zwei bewusste Abweichungen:
+#
+#   - 9.5pt statt 10pt Fließtext. Deutsches Text ist rund 20-25 % länger als
+#     englisches; mit 10pt läuft der Lebenslauf auf drei Seiten statt zwei.
+#     9.5pt ist im deutschen Lebenslauf absolut üblich.
+#   - "heute" statt "gegenwärtig" im Datumsformat, siehe settings.yaml.
 # =============================================================================
 
 design:
@@ -29,7 +33,7 @@ design:
   typography:
     alignment: left
     date_and_location_column_alignment: right
-    line_spacing: 0.56em
+    line_spacing: 0.54em
     font_family:
       body: Source Sans 3
       name: Source Sans 3
@@ -37,10 +41,10 @@ design:
       connections: Source Sans 3
       section_titles: Source Sans 3
     font_size:
-      body: 10pt
+      body: 9.5pt
       name: 26pt
-      headline: 10.5pt
-      connections: 9.5pt
+      headline: 10pt
+      connections: 9pt
       section_titles: 1.3em
     bold:
       section_titles: true

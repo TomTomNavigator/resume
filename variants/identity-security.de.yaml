@@ -27,28 +27,28 @@ cv:
 
     Kennzahlen:
       - label: Umfang
-        details: Okta Identity Cloud und Auth0 in über 5 CEE-Märkten, darunter DACH und Italien
+        details: Okta Identity Cloud und Auth0 in CEE, für Commercial-, Enterprise- und Strategic-Accounts
       - label: Team
-        details: 5 → 12 SEs, mit eigenen Auth0-Spezialisten- und EMEA-Architect-Streams
+        details: 12 direkte Mitarbeitende, mit eigenen Auth0-Spezialisten- und EMEA-Architect-Streams
       - label: Größter Deal
         details: Lead SE im größten Workforce-Identity-Deal der CEE-Region — **1,5 Mio. USD ARR**
       - label: Architektur
         details: REST-APIs, Custom Apps sowie Produktionsintegrationen mit Zscaler, CrowdStrike und Mimecast
       - label: Ökosystem
-        details: Microsoft M365 SME für gemeinsame Compete-Bewegungen; Trusted Advisor für Security-Positionierung
+        details: Regionaler Microsoft-Compete-SME; Trusted Advisor für die Security-Positionierung
       - label: Zertifikate
         details: "[ADD: vorhandene Zertifikate]"
 
     Berufserfahrung:
       - __merge_key__: okta-leadership
         highlights:
-          - "Verantwortung für Identity und Security in **über 5 CEE-Märkten**, sowohl Okta Identity Cloud als auch Auth0 — SSO, Lifecycle und Governance, MFA, PAM sowie Zero-Trust-Architekturen."
-          - "Aufbau des Teams von **5 auf 12** mit Umstrukturierung in drei Streams, darunter dedizierte **Auth0-Spezialisten** und ein EMEA-weiter **Solution-Architect**-Stream."
-          - "Lead Solutions Engineer im größten Workforce-Identity-Deal der CEE-Region — **1,5 Mio. USD ARR** — verantwortlich für Referenzarchitektur, Security Review und gemeinsamen Abschluss."
-          - "Hands-on-Mandate beibehalten: REST-APIs, Entwicklung von Custom Apps sowie tiefgreifende Produktionsintegrationen mit **Zscaler, CrowdStrike und Mimecast**."
-          - "Aufbau und Durchführung der **PreSales Academy** für CEE mit Technical Challenges und Peer-Interviews, die Architekturverständnis statt Produktwissen prüfen."
-          - "**Microsoft SME** für gemeinsame Compete-Bewegungen und technische Abstimmung bei Microsoft-zentrierten Identity-Deals."
-          - "Konzeption des verteilten Arbeitsmodells — montägliche Slack-Check-ins und Zoom-Lightning-Talks — zur technischen Ausrichtung eines pan-CEE-Teams ohne wiederkehrende Status-Meetings."
+          - "Leitung des gesamten Solutions-Engineering-Bereichs der CEE-Region in **kommissarischer Director-Funktion** — **12 direkte Mitarbeitende** (davon dedizierte Okta- und Auth0-SEs) für Commercial-, Enterprise- und Strategic-Accounts."
+          - "Steuerung der regionalen PreSales-Strategie und -Operations für die gesamte CEE-Region, sowohl Okta als auch Auth0 — Identity- und Security-Umfang von SSO über Lifecycle und Governance, MFA und PAM bis Zero Trust."
+          - "Lead Solutions Engineer im größten Workforce-Identity-Deal der CEE-Region zu diesem Zeitpunkt — **1,5 Mio. USD ARR** — verantwortlich für Referenzarchitektur, Security Review und gemeinsamen Abschluss."
+          - "Tiefe Integrationskompetenz: REST-APIs, Entwicklung von Custom Apps sowie Produktionsintegrationen mit **Zscaler, CrowdStrike und Mimecast** im Microsoft-Ökosystem."
+          - "Regionaler **Microsoft-Compete-SME**: Führung des Teams durch anspruchsvolle kompetitive Vertriebszyklen und Architekturdiskussionen."
+          - "Aufbau der Recruiting-Pipeline der **Okta SE Academy** und Leitung der technischen Assessments — bewertet Architekturverständnis statt Produktwissen."
+          - "Interne Entwicklung auf allen Ebenen — **Associate zu SE, SE zu Senior, Senior zu Principal** — sowie Coaching von SDRs in technische Solutions-Engineering-Rollen."
 
     Kompetenzen:
       - label: Enterprise Identity
