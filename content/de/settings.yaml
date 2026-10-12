@@ -1,0 +1,21 @@
+# =============================================================================
+# Settings — Deutsch
+#
+# RenderCV bringt ein eingebautes deutsches Locale mit (Monatskürzel auf Deutsch).
+# Wir überschreiben nur zwei Dinge:
+#   - "present": der Built-in-Wert ist "gegenwärtig", in Lebensläufen üblich
+#     und deutlich natürlicher ist "heute".
+#   - "bold_keywords": bleibt leer. Siehe content/en/settings.yaml für die
+#     Begründung — der Post-Processor zerstört umliegendes Markdown.
+# =============================================================================
+
+locale:
+  language: german
+  present: heute
+
+settings:
+  current_date: today
+
+  bold_keywords: []
+
+  pdf_title: NAME - Lebenslauf

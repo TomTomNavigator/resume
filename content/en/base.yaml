@@ -1,0 +1,220 @@
+# =============================================================================
+# Thomas Heinz — base CV (English)
+# Single source of truth. Everything in variants/*.yaml deep-merges on top of
+# this file, so a correction here propagates to every variant.
+#
+# -----------------------------------------------------------------------------
+# TWO RULES FOR PLACEHOLDERS
+#
+# 1. Keep them SHORT. A placeholder sits inside the rendered layout, and the
+#    narrow columns (education degree, institution) break badly when a long
+#    sentence is stuffed into them. Put "[ADD: x]" in the CV and the full
+#    question in REVIEW.md, which is where you will actually answer it.
+#
+# 2. Keep them INLINE where possible, so they are impossible to miss. Typed
+#    fields that a placeholder would fail validation on (phone numbers, dates)
+#    are the exception — those are omitted and noted in a comment below.
+#
+# Nothing here is invented. Every figure traces back to the original CV or is
+# marked as needing your input.
+# -----------------------------------------------------------------------------
+#
+# The "__merge_key__" fields are build-system directives, not CV content.
+# scripts/build.py strips them before RenderCV validates the file, and uses
+# them so a variant can patch ONE entry without copying the whole list.
+# =============================================================================
+
+cv:
+  name: Thomas Heinz
+  headline: "[ADD: confirm title — Director of Solutions Engineering, Identity & Security (CEE)?]"
+  location: Munich, Germany
+  email: hallo@thomasheinz.net
+  # phone: OMITTED — RenderCV validates this as a real phone number, so a
+  # placeholder would break the build. Add it back in international format
+  # (+49 ...). German recruiting processes generally treat it as mandatory.
+  website: https://thomasheinz.net
+  photo: assets/thomas.png
+  social_networks:
+    - network: LinkedIn
+      username: thomas-heinz
+    - network: GitHub
+      username: tomtomnavigator
+  # RenderCV's built-in social_networks list has no "Xing". In the DACH market
+  # Xing is not optional, so it becomes a custom connection rather than being
+  # dropped. The value must be a bare FontAwesome 6 name — "fa-brands fa-xing"
+  # renders as literal text.
+  custom_connections:
+    - fontawesome_icon: xing
+      placeholder: "[ADD: Xing URL]"
+      url:
+
+  sections:
+
+    # ---------------------------------------------------------------- summary
+    Executive Summary:
+      - |
+        Solutions Engineering leader with 10+ years across enterprise pre-sales, hands-on
+        architecture and people management. I lead Okta's Solutions Engineering organisation
+        across Central & Eastern Europe in an acting Director of PreSales capacity, covering
+        Germany, Austria, Switzerland, Italy and further CEE markets for both the Okta and
+        Auth0 businesses. I grew the team from 5 to 12 and built three career tracks inside
+        it — Core Solutions Engineers, Auth0 Specialists and EMEA-wide Solution Architects —
+        while deliberately staying close to the technology.
+
+    # ---------------------------------------------------------------- metrics
+    # The old CV buried the only numbers it had inside activity bullets. At
+    # Director level the reader wants scale before narrative, so it leads.
+    Leadership Snapshot:
+      - label: Team
+        details: 5 → 12 SEs across 5+ CEE markets; added Auth0 and EMEA Architect tracks
+      - label: Commercial scope
+        details: "[ADD: regional ARR supported/owned]"
+      - label: Largest deal
+        details: Lead SE, largest Workforce deal in CEE — **1.5M USD ARR**
+      - label: Performance
+        details: "[ADD: win rate or conversion %]"
+      - label: Hiring
+        details: "[ADD: SEs hired, markets, time-to-fill]"
+      - label: Development
+        details: "[ADD: SEs promoted to Lead/Architect]"
+
+    # ------------------------------------------------------------ experience
+    # The old CV listed THREE overlapping Okta roles, one of them "Senior
+    # Solutions Engineer, March 2020 - Present" running alongside the manager
+    # role. That reads as three concurrent jobs at one company and triple-counts
+    # four years. Collapsed into one entry here, with the hands-on SE mandate
+    # stated explicitly instead of shown as a parallel role.
+    Professional Experience:
+      - __merge_key__: okta-leadership
+        company: Okta
+        position: Sr. Manager Solutions Engineering, Central & Eastern Europe (Acting Director of PreSales)
+        start_date: 2023-02
+        end_date: present
+        location: Munich, Germany
+        summary: |
+          Promoted into the role in February 2023 after leading the team informally for over a
+          year, and retained a hands-on Solutions Engineer mandate alongside the leadership one —
+          still running discovery, PoCs and joint customer calls in strategic accounts.
+        highlights:
+          - "Grew the CEE Solutions Engineering team from **5 to 12**, restructuring it into three career tracks — Core Solutions Engineers, Auth0 Specialists and EMEA-wide Solution Architects."
+          - "Own Solutions Engineering for [ADD: ARR figure] across Germany, Austria, Switzerland, Italy and further CEE markets, spanning both Okta and Auth0."
+          - "Acted as lead Solutions Engineer on the largest Workforce Identity deal in the CEE region — **1.5M USD ARR** — owning architecture, security review and joint commercial close."
+          - "Built and ran the **PreSales Academy** for CEE: hired early-career SEs across multiple markets including Italy, and ran technical challenges plus peer interviews in the hiring loop."
+          - "Retained a hands-on SE mandate across Okta Identity Cloud and Auth0 — REST APIs, custom apps, and deep integrations with Zscaler, CrowdStrike and Mimecast."
+          - "Coached SEs across Alliances and Core teams and supported internal career transitions into SE and PreSales roles; served as **Microsoft SME** for joint Compete motions."
+          - "Designed the team's distributed operating model — Monday check-ins over Slack, Lightning Talks over Zoom — keeping a pan-CEE team aligned without recurring status meetings."
+
+      - __merge_key__: avepoint-senior-se
+        company: AvePoint
+        position: Senior Solutions Engineer & Microsoft P-TSP
+        start_date: 2019-01
+        end_date: 2020-03
+        location: Munich, Germany
+        summary: |
+          Senior pre-sales role and Microsoft Partner Technical Sales Professional for AvePoint,
+          focused on Microsoft 365 — cloud backup for Microsoft and Salesforce, cloud governance,
+          and the on-premises SharePoint governance and backup estate.
+        highlights:
+          - "#2 Sales Engineer worldwide in 2019, at over 200% of target."
+          - "Trusted technical advisor for AvePoint and for the Microsoft product families I supported, including joint customer-facing positioning."
+          - "Supported migration and governance conversations for customers moving from on-premises SharePoint to full Microsoft 365."
+
+      - __merge_key__: avepoint-tsp
+        company: AvePoint
+        position: Technical Solutions Professional
+        start_date: 2016-01
+        end_date: 2018-12
+        location: Munich, Germany
+        summary: |
+          Where I moved into pre-sales. Started on the on-premises AvePoint DocAve management
+          software for SharePoint and grew into Microsoft cloud deployments protected by the
+          AvePoint Online Services SaaS offering.
+        highlights:
+          - "#1 Sales Engineer worldwide in 2018."
+          - "Owned the transition from on-premises DocAve Management to the AvePoint Online Services SaaS motion, shifting account work toward recurring subscription revenue."
+          - "Ran technical discovery, scoping and PoC delivery for enterprise SharePoint and Microsoft 365 estates."
+
+      # The old CV had a 2012–2016 hole here and mentioned this job only in
+      # passing prose, with no entry at all. A four-year gap in a ten-year
+      # career is a real interview risk, so the entry now exists.
+      - __merge_key__: psod-sharepoint
+        company: "[ADD: employer name]"
+        position: "[ADD: job title]"
+        # Dates deliberately OMITTED: inventing a date range is worse than an
+        # empty field, and an empty field is impossible to miss. See REVIEW.md
+        # — this is the highest-priority gap to close.
+        location: "[ADD: city]"
+        summary: |
+          Application management for Microsoft SharePoint and Project Server — my first
+          enterprise-scale systems role, and where I learned to own a production estate and
+          work with stakeholders who are not engineers.
+        highlights:
+          - "[ADD: scale of the estate]"
+          - "[ADD: one concrete problem you solved]"
+
+    # ----------------------------------------------------------- competencies
+    # Replaces the old CV's percentage-bar "skills" widget, which offered things
+    # like "PreSales 98%" — a number that means nothing at Director level.
+    # Areas of scope tell a hiring manager what to probe you on.
+    Core Competencies:
+      - label: Enterprise Identity & Security
+        details: Okta Identity Cloud, Auth0, SSO (SAML/OIDC), Zero Trust, lifecycle & governance, MFA, PAM
+      - label: Solution Architecture
+        details: Reference architecture, API and custom app integration, PoC design, SaaS/PaaS design review, security review response
+      - label: PreSales Leadership
+        details: Org design, hiring loops and technical panels, coaching, capacity and territory planning, enablement
+      - label: Commercial
+        details: MEDDICC, discovery, pilot/PoC structuring, deal desk, pricing and licensing models, ARR and upsell motions
+      - label: Ecosystem & Alliances
+        details: Microsoft (M365 SME, Compete motions), Zscaler, CrowdStrike, Mimecast, ISV and channel partners
+      - label: Platforms
+        details: Microsoft 365, Azure, AWS, SaaS/PaaS, containers, on-premises SharePoint
+      - label: Executive
+        details: C-level to engineer stakeholder management, cross-functional GTM alignment, DACH and CEE market dynamics
+      # Languages live here rather than under their own heading: a separate
+      # "Languages" section costs a heading and two gaps of vertical space for
+      # what is, at Director level, a single line of information.
+      - label: Languages
+        details: "German (native) · French [ADD: CEFR level]"
+
+    # -------------------------------------------------------------- education
+    Education:
+      - __merge_key__: bba
+        institution: "[ADD: confirm current name]"
+        area: Business Administration
+        degree: BBA
+        start_date: 2009-09
+        end_date: 2012-07
+        location: "[ADD: city]"
+      - __merge_key__: siemens-apprenticeship
+        institution: Siemens AG / ATOS IT Solutions & Services GmbH
+        area: IT apprenticeship — Fachberater für Integrierte Systeme (IHK)
+        degree: "[ADD: IHK exam?]"
+        start_date: 2009-08
+        end_date: 2012-07
+        location: "[ADD: city]"
+
+    # --------------------------------------------------------------- speaking
+    # The old CV's "Publications" section said only "I blog irregularly", which
+    # undersells a leader who has stood up and presented. Talks are the
+    # stronger signal, so the section is named to invite them.
+    Speaking, Writing & Community:
+      - "Technical blog — [thomasheinz.net](https://thomasheinz.net); irregular writing on identity, automation and home infrastructure."
+      - "[ADD: talk — title, event, year]"
+
+    # ----------------------------------------------------------------- awards
+    Awards:
+      - "President's Club FY22 and FY23; EMEA PreSales Rockstar FY23; Technical Hot Shot CEE FY22; Peer Recognition FY22 — Okta"
+      - "[ADD/RESOLVE: AvePoint 2018 ranking conflict]"
+
+    # ---------------------------------------------------------- certifications
+    Certifications:
+      - "[ADD: certification — issuer — year]"
+
+    # ------------------------------------------------------- deleted on purpose
+    #
+    # The old CV carried a "Projects" section about 3D printing, Ender3/Klipper
+    # firmware, a Proxmox homelab and running evilginx. At Director level that
+    # reads as a senior individual contributor hobbying, and it displaced space
+    # that business impact should occupy. The genuine signal — hands-on
+    # curiosity — survives under Platforms and in the blog link. Not reinstated.

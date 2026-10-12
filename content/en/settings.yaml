@@ -1,0 +1,25 @@
+# =============================================================================
+# Settings — English
+#
+# NOTE ON bold_keywords: deliberately EMPTY, and it should stay that way.
+# RenderCV's bold_keywords post-processor mangles any surrounding markdown —
+# `**1.5M USD ARR**` came out of it as literal `#sym.ast.basic` escapes, and
+# company-name emphasis rendered as literal asterisks. It also bolds on raw
+# substring matches, so "lead" inside "lead Solutions Engineer" and "API"
+# inside "APIs" get bolded mid-word, which looks broken.
+#
+# ATS parsers read the extracted text layer, not the bolding. The text layer is
+# identical either way. To emphasise a term, wrap it in ** directly in the YAML
+# — that path is verified working.
+# =============================================================================
+
+locale:
+  language: english
+
+settings:
+  current_date: today
+
+  # Intentionally empty — see note above.
+  bold_keywords: []
+
+  pdf_title: NAME - Curriculum Vitae

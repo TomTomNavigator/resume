@@ -1,0 +1,80 @@
+# =============================================================================
+# Design — English / international market
+#
+# A4, not US Letter. The previous Jekyll CV rendered whatever the browser
+# defaulted to, which is the kind of detail that makes a European CV feel
+# off before a human has read a word.
+# =============================================================================
+
+design:
+  theme: classic
+
+  page:
+    size: a4
+    top_margin: 1.1cm
+    bottom_margin: 1.1cm
+    left_margin: 1.3cm
+    right_margin: 1.3cm
+    show_footer: true
+
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(0, 56, 101)
+    headline: rgb(0, 56, 101)
+    connections: rgb(60, 60, 60)
+    section_titles: rgb(0, 56, 101)
+    links: rgb(0, 56, 101)
+    footer: rgb(120, 120, 120)
+
+  typography:
+    # Left-aligned body rather than justified: justified text in a two-column
+    # date gutter CV produces rivers and looks worse in print.
+    alignment: left
+    date_and_location_column_alignment: right
+    line_spacing: 0.56em
+    font_family:
+      body: Source Sans 3
+      name: Source Sans 3
+      headline: Source Sans 3
+      connections: Source Sans 3
+      section_titles: Source Sans 3
+    font_size:
+      body: 10pt
+      name: 26pt
+      headline: 10.5pt
+      connections: 9.5pt
+      section_titles: 1.3em
+    bold:
+      section_titles: true
+
+  links:
+    underline: false
+    show_external_link_icon: false
+
+  header:
+    alignment: center
+    photo_width: 3.2cm
+    photo_position: left
+
+  section_titles:
+    type: with_partial_line
+    line_thickness: 0.6pt
+    space_above: 0.38cm
+    space_below: 0.18cm
+
+  sections:
+    allow_page_break: true
+    space_between_regular_entries: 0.8em
+    space_between_text_based_entries: 0.25em
+
+  entries:
+    date_and_location_width: 4.2cm
+    allow_page_break: false
+    short_second_row: true
+    highlights:
+      space_left: 0.15cm
+      space_above: 0cm
+      space_between_items: 0.04cm
+
+  templates:
+    top_note: '*LAST_UPDATED CURRENT_DATE*'

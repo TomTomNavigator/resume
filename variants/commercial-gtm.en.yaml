@@ -1,0 +1,78 @@
+# =============================================================================
+# Variant — Commercial & GTM (English)
+#
+# Target: roles where the Solutions Engineering leader owns or influences
+# revenue — Commercial Directors, GTM leaders, Regional VP SE.
+#
+# This is the variant that most needs your numbers. A commercial reviewer will
+# discount the whole CV if the snapshot has no ARR, win rate or pipeline figure,
+# because those three are the entire job.
+# =============================================================================
+
+name: Commercial & GTM (EN)
+lang: en
+
+cv:
+  headline: Director of Solutions Engineering — Commercial Owner, Central & Eastern Europe
+
+  sections:
+
+    Executive Summary:
+      - |
+        Commercial leader in enterprise software with 10+ years across pre-sales, solution
+        architecture and people management. I lead Okta's Solutions Engineering organisation
+        across Central & Eastern Europe in an acting Director of PreSales capacity, covering
+        Germany, Austria, Switzerland, Italy and further CEE markets for both Okta and Auth0.
+        I grew the team from 5 to 12, restructured it into three specialised tracks, and
+        remain directly engaged in strategic deals from first discovery through commercial close.
+
+    Leadership Snapshot:
+      - label: Commercial scope
+        details: "[ADD: ARR supported/owned, FY]"
+      - label: Team
+        details: 5 → 12 SEs across 5+ CEE markets, split into Core, Auth0 and EMEA Architect tracks
+      - label: Largest deal
+        details: Lead SE, largest Workforce deal in CEE — **1.5M USD ARR**, owned through to close
+      - label: Performance
+        details: "[ADD: win rate or conversion %]"
+      - label: Motion
+        details: MEDDICC, discovery, pilot/PoC structuring, deal desk, pricing and licensing models
+      - label: Track record
+        details: "AvePoint #1 SE worldwide 2018; >200% of target 2019"
+
+    Professional Experience:
+      - __merge_key__: okta-leadership
+        highlights:
+          - "Own Solutions Engineering for [ADD: ARR figure] across **Germany, Austria, Switzerland and Italy**, plus further CEE markets, spanning both the Okta and Auth0 businesses."
+          - "Acted as lead Solutions Engineer on the largest Workforce Identity deal in the CEE region — **1.5M USD ARR** — owning discovery, architecture, security review and joint commercial close."
+          - "Grew the CEE team from **5 to 12** and restructured it into three tracks — Core SEs, Auth0 Specialists and EMEA-wide Solution Architects — to raise specialist capacity against pipeline."
+          - "Maintain a direct customer-facing load: running discovery, PoCs and joint calls in strategic accounts rather than delegating them entirely to the team."
+          - "Built and ran the **PreSales Academy** for CEE, hiring early-career SEs across multiple markets including Italy — growing bench capacity without increasing headcount cost per deal."
+          - "Coached SEs across Alliances and Core teams on commercial qualification, and supported internal transitions into SE and PreSales roles across multiple regions."
+          - "Designed the team's distributed operating model — Monday Slack check-ins and Zoom Lightning Talks — keeping a pan-CEE team aligned without recurring status meetings."
+
+      - __merge_key__: avepoint-senior-se
+        highlights:
+          - "#2 Sales Engineer **worldwide** in 2019, at over **200% of target**."
+          - "Trusted technical advisor for AvePoint and for the Microsoft product families I supported, including joint customer-facing positioning in competitive deals."
+          - "Supported migration and governance conversations for customers moving from on-premises SharePoint to full Microsoft 365."
+
+      - __merge_key__: avepoint-tsp
+        highlights:
+          - "#1 Sales Engineer **worldwide** in 2018."
+          - "Owned the transition from on-premises DocAve Management to the AvePoint Online Services SaaS motion, shifting account work toward recurring subscription and ARR revenue."
+          - "Ran technical discovery, scoping and PoC delivery for enterprise SharePoint and Microsoft 365 estates."
+
+    Core Competencies:
+      - label: Commercial
+        details: MEDDICC, discovery, pilot/PoC structuring, deal desk, pricing and licensing models, ARR and upsell motions, forecasting
+      - label: PreSales Leadership
+        details: Org design, coaching for commercial qualification, capacity and territory planning, enablement
+      - label: Deal Execution
+        details: Complex enterprise cycles, multi-stakeholder consensus, security and procurement gates, competitive displacement
+      - label: Solution Architecture
+        details: Reference architecture, API and custom app integration, PoC design, security review response
+      - label: Enterprise Identity
+        details: Okta Identity Cloud, Auth0, SSO (SAML/OIDC), Zero Trust, lifecycle & governance, MFA, PAM
+      - label: Executive
+        details: C-level to engineer stakeholder management, cross-functional GTM alignment, DACH and CEE market dynamics

@@ -1,0 +1,10 @@
+# Pinned so local and CI builds produce byte-identical PDFs.
+#
+# RenderCV 2.4+ requires Python 3.12+. It bundles Typst via pip, so there is no
+# separate LaTeX or Typst system install to manage — this is the main reason
+# this project uses RenderCV rather than a LaTeX toolchain.
+rendercv[full]==2.8
+
+pyyaml>=6.0
+python-docx>=1.1
+pypdf>=4.0
