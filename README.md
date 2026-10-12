@@ -102,20 +102,35 @@ python scripts/check.py     # shows placeholder counts per file
 
 ## Deployment
 
-`.github/workflows/build.yml` runs on every push and:
+`.github/workflows/build.yml` runs on pushes to `main`, on `v*` tags, on pull
+requests, and on manual dispatch. It:
 
 - builds and validates all variants
 - **fails if any PDF has no extractable text layer**
 - publishes the landing page to GitHub Pages from `dist/site`
-- attaches PDFs and DOCX to a GitHub release when you push a `v*` tag
+- attaches PDFs and DOCX to a GitHub release when a `v*` tag is pushed
 
 ```bash
-git tag v2026-10 && git push --tags      # cut a release with downloadable PDFs
+git tag -a v1.0.0 -m "..." && git push origin v1.0.0   # cut a release
 ```
 
-To serve the landing page from your own domain instead of `*.github.io`, point a
-CNAME at it in the repository settings, or change the defaults in
-`scripts/site.py`.
+### Enabling Pages (one manual step)
+
+The landing page needs GitHub Pages turned on for the repository. This cannot be
+done from the API — `POST /repos/:owner/:repo/pages` returns success but leaves
+the site 404-ing, and `deploy-pages` then reports success without running, which
+is a confusing failure to debug.
+
+1. Open <https://github.com/TomTomNavigator/resume/settings/pages>
+2. Under **Build and deployment → Source**, choose **GitHub Actions**
+3. Save
+
+After that, every push to `main` publishes automatically. To serve from your own
+domain instead, point a CNAME at it in the repository settings, or change the
+defaults in `scripts/site.py`.
+
+Releases work independently of Pages, so the PDFs are downloadable whether or
+not the landing page is enabled.
 
 ## Why RenderCV
 
