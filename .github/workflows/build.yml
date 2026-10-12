@@ -26,6 +26,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -68,10 +71,18 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Deploy landing page to GitHub Pages
+      # Uploads dist/site as the named `github-pages` artifact. This step on
+      # its own publishes nothing — it is only picked up by deploy-pages below.
+      - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist/site
+
+      # The step that actually publishes. Omitting it produces a green run and
+      # a 404 site, because upload-pages-artifact succeeds either way.
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 
   release:
     # Downloadable PDFs are only attached to a tagged release. Day-to-day pushes

@@ -157,6 +157,20 @@ def main() -> int:
     elif pages_publishers:
         print(f"  Pages publisher: {pages_publishers[0]} (sole)")
 
+    # A workflow that uploads the Pages artifact but never calls deploy-pages
+    # produces a green run and a 404 site — upload-pages-artifact succeeds
+    # either way. This exact omission shipped once.
+    for workflow in sorted((ROOT / ".github" / "workflows").glob("*.y*ml")):
+        try:
+            text = workflow.read_text(encoding="utf-8")
+        except OSError:
+            continue
+        if "actions/upload-pages-artifact" in text and "actions/deploy-pages" not in text:
+            fail(
+                f"{workflow.name}: uploads the Pages artifact but never calls "
+                "actions/deploy-pages — the run will go green and the site will 404"
+            )
+
     # ---- report ------------------------------------------------------------
     for message in warnings:
         print(f"  warning: {message}")
