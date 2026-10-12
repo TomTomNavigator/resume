@@ -7,6 +7,9 @@ name: Build CV
 on:
   push:
     branches: [main]
+    # Tags drive the release job. Without this, pushing v* matches neither
+    # branch nor the default and the workflow silently never runs.
+    tags: ["v*"]
   pull_request:
   workflow_dispatch:
 
