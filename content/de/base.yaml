@@ -148,7 +148,7 @@ cv:
         position: IT Engineer — Application Management
         start_date: 2012-06
         end_date: 2016-04
-        location: "[ADD: Ort]"
+        location: München, Deutschland
         summary: |
           Applikationsmanagement für Microsoft Project Server und SharePoint Server sowie
           Verantwortung für PSoD — „Project Service on Demand" — einen internen
@@ -192,7 +192,9 @@ cv:
         degree: "[ADD: IHK-Prüfung?]"
         start_date: 2009-08
         end_date: 2012-07
-        location: "[ADD: Ort]"
+        # ANNAHME: München, da die unmittelbar anschließende Atos-Rolle in
+        # München war. Korrigieren, falls die Ausbildung anderswo saß.
+        location: München, Deutschland
 
     Vorträge, Beiträge & Community:
       - "Technischer Blog — [thomasheinz.net](https://thomasheinz.net); unregelmäßige Beiträge zu Identity, Automatisierung und eigener Infrastruktur."

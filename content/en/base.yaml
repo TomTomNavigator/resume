@@ -163,7 +163,7 @@ cv:
         position: IT Engineer — Application Management
         start_date: 2012-06
         end_date: 2016-04
-        location: "[ADD: city]"
+        location: Munich, Germany
         summary: |
           Application management for Microsoft Project Server and SharePoint Server, and
           ownership of PSoD — "Project Service on Demand" — an in-house subscription service with
@@ -213,7 +213,10 @@ cv:
         degree: "[ADD: IHK exam?]"
         start_date: 2009-08
         end_date: 2012-07
-        location: "[ADD: city]"
+        # ASSUMPTION: set to Munich because the Atos IT Engineer role that
+        # followed immediately was in Munich. Correct this if the apprenticeship
+        # was based elsewhere.
+        location: Munich, Germany
 
     # --------------------------------------------------------------- speaking
     # The old CV's "Publications" section said only "I blog irregularly", which
