@@ -40,36 +40,16 @@ jobs:
 
       - name: Build all variants
         # Fails the job if any variant errors, if any PDF is missing, or if any
-      # PDF has no extractable text layer. That last check is the point of the
+        # PDF has no extractable text layer. That last check is the point of the
         # whole exercise: the previous Jekyll setup produced image-only PDFs
-      # that applicant tracking systems could not read.
+        # that applicant tracking systems could not read.
         run: python scripts/build.py
 
       - name: Build landing page
         run: python scripts/site.py
 
       - name: Summarise
-        run: |
-          {
-            echo "## CV build"
-            echo
-            echo "| variant | pages | PDF size | text layer |"
-            echo "|---|---|---|---|"
-            for pdf in dist/*/*.pdf; do
-              variant=$(basename "$(dirname "$pdf")")
-              pages=$(python -c "
-          from pypdf import PdfReader
-          print(len(PdfReader('$pdf').pages))
-      " 2>/dev/null || echo "?")
-              size=$(du -h "$pdf" | cut -f1)
-              text=$(python -c "
-          from pypdf import PdfReader
-          n = sum(len(p.extract_text() or '') for p in PdfReader('$pdf').pages)
-          print(f'{n:,} chars')
-      " 2>/dev/null || echo "?")
-              echo "| $variant | $pages | $size | $text |"
-            done
-          } >> "$GITHUB_STEP_SUMMARY"
+        run: python scripts/summary.py
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4

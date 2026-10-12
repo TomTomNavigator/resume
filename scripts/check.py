@@ -121,6 +121,16 @@ def main() -> int:
         print(f"  {variant_path.relative_to(ROOT)}: {len(keys)} patched entries, "
               f"{count_placeholders(variant)} placeholders")
 
+    # ---- workflow ---------------------------------------------------------
+    # A workflow that does not parse fails at run time with "0 jobs", which
+    # looks like a platform outage and costs a slow debugging round trip. An
+    # earlier version of build.yml had this exact bug: a `run: |` block scalar
+    # whose continuation lines were under-indented, which silently terminated
+    # the block and made the rest of the file unparseable.
+    for workflow in sorted((ROOT / ".github" / "workflows").glob("*.y*ml")):
+        if load(workflow) is not None:
+            print(f"  {workflow.relative_to(ROOT)}: parses")
+
     # ---- report ------------------------------------------------------------
     for message in warnings:
         print(f"  warning: {message}")
