@@ -67,7 +67,8 @@ def collect() -> list[dict]:
             {
                 "dir": slug,
                 "lang": lang,
-                "name": cv.get("headline") or slug.replace("_", " "),
+                "name": slug.replace("_", " "),
+                "headline": cv.get("headline", ""),
                 "files": files,
                 "open": count_placeholders(composed),
             }
@@ -83,8 +84,7 @@ PAGE = """<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Thomas Heinz — Curriculum Vitae</title>
-<meta name="description" content="CV variants for Thomas Heinz, Director-level
-Solutions Engineering, Identity and Security, Central and Eastern Europe.">
+<meta name="description" content="CV variants for Thomas Heinz, Solutions Engineering Leader across Central & Eastern Europe.">
 <style>
   :root {{ --navy:#003865; --ink:#1a1a1a; --muted:#666; --line:#e2e6ea; }}
   * {{ box-sizing:border-box; }}
@@ -136,7 +136,7 @@ Solutions Engineering, Identity and Security, Central and Eastern Europe.">
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--site", default="https://thomasheinz.net")
-    parser.add_argument("--repo", default="https://github.com/TomTomNavigator/online-cv")
+    parser.add_argument("--repo", default="https://github.com/TomTomNavigator/resume")
     args = parser.parse_args()
 
     if not DIST.exists():
@@ -160,9 +160,11 @@ def main() -> int:
                     f'<div class="warn">{variant["open"]} placeholder(s) still to '
                     "be filled in — check REVIEW.md.</div>"
                 )
+            headline_html = f'<div class="note" style="margin-top:-4px; margin-bottom:12px; font-weight:500;">{html.escape(variant["headline"])}</div>\n' if variant["headline"] else ""
             chunks.append(
                 '  <div class="card">\n'
                 f'    <h3>{html.escape(variant["name"])}</h3>\n'
+                f'    {headline_html}'
                 f'    <div class="links">{links}</div>\n'
                 f'    {warning}\n'
                 "  </div>"
