@@ -17,8 +17,8 @@ cv:
       - |
         People-first engineering leader with 10+ years across enterprise pre-sales, hands-on
         architecture and team management. I lead Okta's Solutions Engineering organisation
-        across Central & Eastern Europe in an acting Director of PreSales capacity, spanning
-        Germany, Austria, Switzerland, Italy and further CEE markets. I lead a team of 12 direct
+        across Central & Eastern Europe in an acting Director of PreSales capacity, covering
+        Germany, Austria, Switzerland and further CEE markets. I lead a team of 12 direct
         reports, designed three distinct career tracks inside it, and built the hiring and
         coaching systems that let a distributed team deliver consistently across markets and
         time zones.
@@ -27,9 +27,9 @@ cv:
       - label: Team
         details: 12 direct reports across CEE; three career tracks designed and staffed
       - label: Markets
-        details: Germany, Austria, Switzerland, Italy and further CEE, incl. pan-CEE EMEA Architect roles
+        details: Germany, Austria, Switzerland and further CEE, incl. pan-CEE EMEA Architect roles
       - label: Hiring
-        details: Hired across Switzerland and Italy; recruited 2 SEs via the PreSales Academy
+        details: Hired across Switzerland and CEE; recruited 2 SEs via the PreSales Academy
       - label: Development
         details: Promotions at every level — Associate→SE, SE→Senior, Senior→Principal; SDRs coached into SE
       - label: Structure
@@ -43,7 +43,7 @@ cv:
           - "Lead the full CEE organisation in an **acting Director capacity** — **12 direct reports** of dedicated Okta and Auth0 SEs across Commercial, Enterprise and Strategic accounts."
           - "Structured the **12-person organisation** into three career tracks — Core Solutions Engineers, Auth0 Specialists and EMEA-wide Solution Architects — so specialists had a defined path instead of being generalists by default."
           - "Drove internal progression across every seniority level — **Associate to SE, SE to Senior, and Senior to Principal** — and successfully coached SDRs into technical Solutions Engineering roles."
-          - "Spearheaded hiring across key European markets **including Italy and Switzerland**, and recruited 2 Solutions Engineers for the **Okta SE Academy**, leading technical evaluations."
+          - "Spearheaded hiring across European markets (including Switzerland), and recruited 2 Solutions Engineers for the **Okta SE Academy**, leading technical evaluations."
           - "Maintained executive alignment and hands-on involvement with key Strategic and Enterprise customers, driving digital transformation, AI and identity security initiatives."
           - "Designed the team's distributed operating model — Monday check-ins over Slack and Lightning Talks over Zoom — keeping a pan-CEE team aligned without adding recurring status meetings."
           - "Acted as lead Solutions Engineer on the largest Workforce Identity deal in the CEE region at the time — **1.5M USD ARR**."
