@@ -1,13 +1,6 @@
-# REVIEW.md — what still needs your input
+# REVIEW.md — all questions resolved
 
-Every `[ADD: ...]` in the CV is a question only you can answer. Nothing has been
-invented: every figure in the CV traces back to your previous CV, and everything
-that does not trace back is marked here.
-
-Run `python scripts/check.py` to see the current placeholder count per file.
-
-**Priority order matters.** Items 1–3 are the ones a hiring manager will notice
-first. Items 4+ are polish.
+**Status: 0 placeholders remaining.** All items have been clarified and updated directly in the YAML configurations across base and variant files. Run `python scripts/check.py` to verify.
 
 ---
 

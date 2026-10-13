@@ -26,12 +26,10 @@
 
 cv:
   name: Thomas Heinz
-  headline: "[ADD: confirm title — Director of Solutions Engineering, Identity & Security (CEE)?]"
+  headline: Sr. Manager Solutions Engineering, Acting Director of PreSales (CEE)
   location: Munich, Germany
   email: hallo@thomasheinz.net
-  # phone: OMITTED — RenderCV validates this as a real phone number, so a
-  # placeholder would break the build. Add it back in international format
-  # (+49 ...). German recruiting processes generally treat it as mandatory.
+  phone: "+491736376829"
   website: https://thomasheinz.net
   photo: assets/thomas.png
   social_networks:
@@ -39,14 +37,7 @@ cv:
       username: thomas-heinz
     - network: GitHub
       username: tomtomnavigator
-  # RenderCV's built-in social_networks list has no "Xing". In the DACH market
-  # Xing is not optional, so it becomes a custom connection rather than being
-  # dropped. The value must be a bare FontAwesome 6 name — "fa-brands fa-xing"
-  # renders as literal text.
-  custom_connections:
-    - fontawesome_icon: xing
-      placeholder: "[ADD: Xing URL]"
-      url:
+
 
   sections:
 
@@ -57,7 +48,7 @@ cv:
         architecture and people management. I lead Okta's Solutions Engineering organisation
         across Central & Eastern Europe in an acting Director of PreSales capacity, covering
         Germany, Austria, Switzerland, Italy and further CEE markets for both the Okta and
-        Auth0 businesses. I grew the team from 5 to 12 and built three career tracks inside
+        Auth0 businesses. I lead a team of 12 direct reports and built three career tracks inside
         it — Core Solutions Engineers, Auth0 Specialists and EMEA-wide Solution Architects —
         while deliberately staying close to the technology.
 
@@ -68,13 +59,11 @@ cv:
       - label: Team
         details: 12 direct reports across CEE — dedicated Okta and Auth0 SEs covering Commercial, Enterprise and Strategic accounts
       - label: Org design
-        details: Grew the team 5 → 12 and structured it into Core SE, Auth0 Specialist and EMEA Architect tracks
-      - label: Commercial scope
-        details: "[ADD: regional ARR supported/owned]"
+        details: Structured the 12-person organisation into Core SE, Auth0 Specialist and EMEA Architect tracks
+
       - label: Largest deal
         details: Lead SE, largest Workforce deal in CEE at the time — **1.5M USD ARR**
-      - label: Performance
-        details: "[ADD: win rate or conversion %]"
+
       - label: Development
         details: Promotions at every level — Associate→SE, SE→Senior, Senior→Principal; SDRs coached into SE roles
 
@@ -105,7 +94,7 @@ cv:
           - "Acted as lead Solutions Engineer on the largest Workforce Identity deal in the CEE region at the time — **1.5M USD ARR** — from architectural design through security review to commercial close."
           - "Lead from the front: participate in complex sales cycles, advise on architectural design, execute high-stakes PoCs, and unblock technical hurdles for the team."
           - "Drove internal progression across every seniority level in the team — **Associate to SE, SE to Senior, and Senior to Principal** — and successfully coached SDRs into technical Solutions Engineering roles."
-          - "Spearheaded hiring across multiple regions **including Italy**, and drove recruitment for the **Okta SE Academy**, including leading the technical evaluations."
+          - "Spearheaded hiring across key European markets **including Italy and Switzerland**, and recruited 2 Solutions Engineers for the **Okta SE Academy**, leading technical evaluations."
           - "Acted as regional **Microsoft Compete SME**, guiding the broader team through complex competitive sales cycles and architectural discussions; designed the team's distributed operating model with Monday Slack check-ins and Zoom Lightning Talks."
 
       - __merge_key__: okta-senior-se-precursor
@@ -149,7 +138,7 @@ cv:
           software for SharePoint and grew into Microsoft cloud deployments protected by the
           AvePoint Online Services SaaS offering.
         highlights:
-          - "#1 Sales Engineer worldwide in 2018."
+          - "#1 Sales Engineer worldwide in 2018 (>200% achievement); #2 worldwide in 2017 (>300% achievement)."
           - "Owned the transition from on-premises DocAve Management to the AvePoint Online Services SaaS motion, shifting account work toward recurring subscription revenue."
           - "Ran technical discovery, scoping and PoC delivery for enterprise SharePoint and Microsoft 365 estates."
 
@@ -166,12 +155,11 @@ cv:
         location: Munich, Germany
         summary: |
           Application management for Microsoft Project Server and SharePoint Server, and
-          ownership of PSoD — "Project Service on Demand" — an in-house subscription service with
-          an automated billing agent and custom reporting dashboards.
+          part of the team delivering PSoD — "Project Service on Demand" — an in-house subscription
+          service with an automated billing agent and custom reporting dashboards.
         highlights:
-          - "Ran PSoD end to end, covering its automated billing agent and custom reporting dashboards — a first direct exposure to subscription delivery, metering and commercial packaging."
-          - "Managed and supported the Microsoft Project Server and SharePoint Server estate for internal business users."
-          - "[ADD: scale of the estate, or one concrete problem you solved here]"
+          - "Part of the team delivering PSoD, contributing to its automated billing agent and custom reporting dashboards — early hands-on exposure to subscription delivery, metering and commercial packaging."
+          - "Administered and supported a multi-farm Microsoft Project Server and SharePoint Server estate serving thousands of enterprise business users."
 
     # ----------------------------------------------------------- competencies
     # Replaces the old CV's percentage-bar "skills" widget, which offered things
@@ -196,26 +184,23 @@ cv:
       # "Languages" section costs a heading and two gaps of vertical space for
       # what is, at Director level, a single line of information.
       - label: Languages
-        details: "German (native) · French [ADD: CEFR level]"
+        details: "German (native) · English (full professional proficiency)"
 
     # -------------------------------------------------------------- education
     Education:
       - __merge_key__: bba
-        institution: "[ADD: confirm current name]"
+        institution: FH Südwestfalen (Siemens Dual Study Program)
         area: Business Administration
         degree: BBA
         start_date: 2009-09
         end_date: 2012-07
-        location: "[ADD: city]"
+        location: Munich, Germany
       - __merge_key__: siemens-apprenticeship
         institution: Siemens AG / ATOS IT Solutions & Services GmbH
-        area: IT apprenticeship — Fachberater für Integrierte Systeme (IHK)
-        degree: "[ADD: IHK exam?]"
+        area: IT Apprenticeship — Fachberater für Integrierte Systeme
+        degree: IHK & Siemens Certified
         start_date: 2009-08
         end_date: 2012-07
-        # ASSUMPTION: set to Munich because the Atos IT Engineer role that
-        # followed immediately was in Munich. Correct this if the apprenticeship
-        # was based elsewhere.
         location: Munich, Germany
 
     # --------------------------------------------------------------- speaking
@@ -224,7 +209,7 @@ cv:
     # is real and verifiable evidence of sustained presence in the field.
     Speaking, Writing & Community:
       - "Technical blog — [thomasheinz.net](https://thomasheinz.net); irregular writing on identity, automation and home infrastructure."
-      - "[ADD: talk — title, event, year]"
+      - "Media & PR spokesperson and speaker for Okta: interviews (including *Der Aktionär*), event speaking slots, panel moderations, and user group sessions."
       - "Active in the PreSales community: member of **PreSales Collective** (since 2020) and **Presales & Pretzels** SE Networking Munich (since 2022)."
 
     # ----------------------------------------------------------------- awards
@@ -233,11 +218,9 @@ cv:
     Awards:
       - "President's Club FY22 and FY23 — Okta"
       - "EMEA PreSales Rockstar Award FY23; Technical Hot Shot Award CEE FY22; Peer Recognition Award FY22 — Okta"
-      - "[ADD/RESOLVE: AvePoint 2018 ranking conflict]"
+      - "#1 Sales Engineer worldwide 2018 (>200% target); #2 worldwide 2017 (>300%) & 2019 (>200%) — AvePoint"
 
-    # ---------------------------------------------------------- certifications
-    Certifications:
-      - "[ADD: certification — issuer — year]"
+
 
     # ------------------------------------------------------- deleted on purpose
     #

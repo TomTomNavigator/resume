@@ -16,11 +16,10 @@
 
 cv:
   name: Thomas Heinz
-  headline: "[ADD: Titel bestätigen — Director of Solutions Engineering, Identity & Security (CEE)?]"
+  headline: Sr. Manager Solutions Engineering, kommissarischer Director of PreSales (CEE)
   location: München, Deutschland
   email: hallo@thomasheinz.net
-  # Telefon: bewusst ausgelassen — RenderCV validiert echte Telefonnummern.
-  # Im DACH-Bewerbungsprozess in aller Regel Pflichtfeld. Nachtragen: +49 ...
+  phone: "+491736376829"
   website: https://thomasheinz.net
   photo: assets/thomas.png
   social_networks:
@@ -28,12 +27,7 @@ cv:
       username: thomas-heinz
     - network: GitHub
       username: tomtomnavigator
-  # Xing ist im DACH-Raum Standard und in RenderCV nicht als Netzwerk
-  # hinterlegt — daher als eigene Verbindung mit FontAwesome-6-Symbolname.
-  custom_connections:
-    - fontawesome_icon: xing
-      placeholder: "[ADD: Xing-URL]"
-      url:
+
 
   sections:
 
@@ -43,8 +37,8 @@ cv:
         Schnittstelle von Enterprise-Vertrieb, Lösungsarchitektur und Teamführung. Ich leite
         den Solutions-Engineering-Bereich von Okta für Zentraleuropa in kommissarischer
         Director-of-PreSales-Funktion — für Deutschland, Österreich, die Schweiz, Italien
-        sowie weitere CEE-Märkte, sowohl für das Okta- als auch das Auth0-Geschäft. Das Team
-        habe ich von 5 auf 12 Personen aufgebaut und drei Karrierepfade etabliert: Core
+        sowie weitere CEE-Märkte, sowohl für das Okta- als auch das Auth0-Geschäft. Ich führe
+        eine Organisation von 12 direkten Mitarbeitenden und habe drei Karrierepfade etabliert: Core
         Solutions Engineers, Auth0-Spezialisten und EMEA-weite Solution Architects. Dabei
         halte ich die technische Nähe bewusst aufrecht.
 
@@ -52,13 +46,11 @@ cv:
       - label: Team
         details: 12 direkte Mitarbeitende in CEE — dedizierte Okta- und Auth0-SEs für Commercial-, Enterprise- und Strategic-Accounts
       - label: Organisationsdesign
-        details: Team von 5 auf 12 aufgebaut und in Core-SE-, Auth0-Spezialisten- und EMEA-Architect-Streams gegliedert
-      - label: Vertriebsvolumen
-        details: "[ADD: regionaler ARR unterstützt/verantwortet]"
+        details: 12-köpfige Organisation in Core-SE-, Auth0-Spezialisten- und EMEA-Architect-Streams gegliedert
+
       - label: Größter Deal
         details: Lead SE im größten Workforce-Deal der CEE-Region zu diesem Zeitpunkt — **1,5 Mio. USD ARR**
-      - label: Performance
-        details: "[ADD: Win-Rate oder Conversion %]"
+
       - label: Förderung
         details: Beförderungen auf allen Ebenen — Associate→SE, SE→Senior, Senior→Principal; SDRs in SE-Rollen gecoacht
 
@@ -89,7 +81,7 @@ cv:
           - "Lead Solutions Engineer im größten Workforce-Identity-Deal der CEE-Region zu diesem Zeitpunkt — **1,5 Mio. USD ARR** — von Architekturdesign über Security Review bis zum gemeinsamen Abschluss."
           - "Vorne führen: Mitwirkung in komplexen Vertriebszyklen, Beratung bei Architekturdesigns, Durchführung anspruchsvoller PoCs sowie Beseitigung technischer Hürden für das Team."
           - "Interne Entwicklung über alle Hierarchieebenen hinweg — **Associate zu SE, SE zu Senior, Senior zu Principal** — sowie erfolgreiches Coaching von SDRs in technische Solutions-Engineering-Rollen."
-          - "Verantwortung für Recruiting in mehreren Regionen **einschließlich Italien** sowie Rekrutierung für die **Okta SE Academy**, inklusive Leitung der technischen Assessments."
+          - "Verantwortung für Recruiting in Schlüsselmärkten **einschließlich Italien und der Schweiz** sowie Einstellung von 2 SEs für die **Okta SE Academy**, inklusive Leitung der technischen Assessments."
           - "Regionaler **Microsoft-Compete-SME**: Führung des Teams durch anspruchsvolle kompetitive Vertriebszyklen und Architekturdiskussionen; zudem Konzeption des verteilten Arbeitsmodells mit montäglichen Slack-Check-ins und Zoom-Lightning-Talks."
 
       - __merge_key__: okta-senior-se-precursor
@@ -133,7 +125,7 @@ cv:
           Management-Software für SharePoint, danach Ausweitung auf Microsoft-Cloud-Deployments,
           abgesichert über die SaaS-Lösung AvePoint Online Services.
         highlights:
-          - "#1 Sales Engineer weltweit im Jahr 2018."
+          - "#1 Sales Engineer weltweit im Jahr 2018 (>200 % Zielerreichung); #2 weltweit im Jahr 2017 (>300 % Zielerreichung)."
           - "Verantwortung für den Übergang vom on-premises DocAve Management zur SaaS-Variante AvePoint Online Services und damit für die Hinwendung der Accounts zu wiederkehrenden Subscription-Umsätzen."
           - "Durchführung von technischer Analyse, Scoping und PoC-Betreuung für SharePoint- und Microsoft-365-Landschaften."
 
@@ -151,12 +143,11 @@ cv:
         location: München, Deutschland
         summary: |
           Applikationsmanagement für Microsoft Project Server und SharePoint Server sowie
-          Verantwortung für PSoD — „Project Service on Demand" — einen internen
+          Mitarbeit im Team für PSoD — „Project Service on Demand" — einen internen
           Abonnement-Dienst mit automatischer Abrechnung und eigenen Reporting-Dashboards.
         highlights:
-          - "Verantwortlicher Betrieb von PSoD inklusive automatischer Abrechnung und Reporting-Dashboards — die erste direkte Auseinandersetzung mit Abonnement-Erbringung, Verbrauchsabrechnung und kommerzieller Paketierung."
-          - "Verwaltung und Support der Microsoft-Project-Server- und SharePoint-Server-Landschaft für interne Anwender."
-          - "[ADD: Umfang der Umgebung oder ein konkretes gelöstes Problem]"
+          - "Mitarbeit an PSoD inklusive automatisiertem Abrechnungsagenten und Reporting-Dashboards — frühe Praxiserfahrung mit Abonnement-Erbringung, Verbrauchsabrechnung und kommerzieller Paketierung."
+          - "Administration und Support einer Multi-Farm-Landschaft auf Basis von Microsoft Project Server und SharePoint Server für mehrere tausend Enterprise-Anwender."
 
     Kompetenzen:
       - label: Enterprise Identity & Security
@@ -176,35 +167,30 @@ cv:
       # Sprachen stehen hier statt in einem eigenen Abschnitt: eine eigene
       # Überschrift kostet Platz für eine Zeile Information.
       - label: Sprachen
-        details: "Deutsch (Muttersprache) · Französisch [ADD: Niveau]"
+        details: "Deutsch (Muttersprache) · Englisch (verhandlungssicher)"
 
     Ausbildung:
       - __merge_key__: bba
-        institution: "[ADD: aktuellen Namen bestätigen]"
+        institution: FH Südwestfalen (Duales Studium Siemens)
         area: Betriebswirtschaft
         degree: BBA
         start_date: 2009-09
         end_date: 2012-07
-        location: "[ADD: Ort]"
+        location: München, Deutschland
       - __merge_key__: siemens-apprenticeship
         institution: Siemens AG / ATOS IT Solutions & Services GmbH
-        area: IT-Ausbildung — Fachberater für Integrierte Systeme (IHK)
-        degree: "[ADD: IHK-Prüfung?]"
+        area: IT-Ausbildung — Fachberater für Integrierte Systeme
+        degree: IHK-Abschluss & Siemens-Zertifizierung
         start_date: 2009-08
         end_date: 2012-07
-        # ANNAHME: München, da die unmittelbar anschließende Atos-Rolle in
-        # München war. Korrigieren, falls die Ausbildung anderswo saß.
         location: München, Deutschland
 
     Vorträge, Beiträge & Community:
       - "Technischer Blog — [thomasheinz.net](https://thomasheinz.net); unregelmäßige Beiträge zu Identity, Automatisierung und eigener Infrastruktur."
-      - "[ADD: Vortrag — Titel, Veranstaltung, Jahr]"
+      - "Medien- und PR-Sprecher sowie Vorträge für Okta: Fachinterviews (u. a. *Der Aktionär*), Event-Auftritte, Panel-Moderationen und User-Group-Formate."
       - "Aktiv in der PreSales-Community: Mitglied bei **PreSales Collective** (seit 2020) und bei **Presales & Pretzels** SE Networking München (seit 2022)."
 
     Auszeichnungen:
       - "President's Club FY22 und FY23 — Okta"
       - "EMEA PreSales Rockstar FY23; Technical Hot Shot CEE FY22; Peer Recognition FY22 — Okta"
-      - "[ADD/KLÄREN: Widerspruch AvePoint 2018]"
-
-    Zertifikate:
-      - "[ADD: Zertifikat — Aussteller — Jahr]"
+      - "#1 Sales Engineer weltweit 2018 (>200 % Zielerreichung); #2 weltweit 2017 (>300 %) und 2019 (>200 %) — AvePoint"

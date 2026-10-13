@@ -24,7 +24,7 @@ cv:
         architecture and people management. I lead Okta's Solutions Engineering organisation
         across Central & Eastern Europe in an acting Director of PreSales capacity, covering
         Germany, Austria, Switzerland, Italy and further CEE markets across both Okta and
-        Auth0. I grew the team from 5 to 12 and built three career tracks inside it — Core
+        Auth0. I lead an organisation of 12 direct reports and built three career tracks inside it — Core
         Solutions Engineers, Auth0 Specialists and EMEA-wide Solution Architects — with
         security architecture and technical credibility as the core of the role.
 
@@ -39,8 +39,7 @@ cv:
         details: REST APIs, custom apps, and production integrations with Zscaler, CrowdStrike and Mimecast
       - label: Ecosystem
         details: Regional Microsoft Compete SME; trusted advisor on security posture
-      - label: Credentials
-        details: "[ADD: certifications held]"
+
 
     Professional Experience:
       - __merge_key__: okta-leadership
