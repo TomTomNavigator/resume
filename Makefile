@@ -24,7 +24,7 @@ setup:
 build:
 	PATH="$(BIN):$$PATH" $(BIN)/python scripts/build.py
 
-# Build a single variant:  make one VARIANT=identity-security.en
+# Build a single variant:  make one VARIANT=resume.en
 one:
 	PATH="$(BIN):$$PATH" $(BIN)/python scripts/build.py $(VARIANT)
 

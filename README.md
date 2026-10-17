@@ -1,7 +1,7 @@
 # Thomas Heinz — CV
 
 Director-level CV for Solutions Engineering, Identity & Security, Central &
-Eastern Europe. Built as code: one YAML source of truth, six tailored variants,
+Eastern Europe. Built as code: one YAML source of truth, two canonical versions (English & German),
 and real PDF/DOCX output that applicant tracking systems can actually read.
 
 This replaces the previous [Jekyll `online-cv` setup](../), which had three
@@ -31,7 +31,7 @@ on every CI run.
 To build one variant while editing:
 
 ```bash
-make one VARIANT=identity-security.en
+make one VARIANT=resume.en
 make check          # fast structural check, no rendering
 ```
 
@@ -44,10 +44,8 @@ content/
   */design.yaml        theme, colours, spacing
   */settings.yaml      locale, PDF metadata
 variants/
-  identity-security.{en,de}.yaml
-  commercial-gtm.{en,de}.yaml
-  emea-leadership.en.yaml
-  base.de.yaml
+  resume.en.yaml        canonical English version
+  lebenslauf.de.yaml    canonical German version
 scripts/
   build.py              merge -> compose -> render -> DOCX -> verify
   site.py               landing page generator
