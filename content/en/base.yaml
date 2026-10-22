@@ -144,8 +144,8 @@ cv:
 
     # ----------------------------------------------------------- competencies
     Core Competencies:
-      - label: Enterprise Identity & Security
-        details: Okta Identity Cloud, Auth0, SSO (SAML/OIDC), Zero Trust, lifecycle & governance, MFA, PAM
+      - label: Enterprise & Customer Identity
+        details: "Okta Identity Cloud, Auth0 (CIAM), Microsoft Entra ID, SSO (SAML/OIDC), Zero Trust, lifecycle & governance, MFA, PAM"
       - label: Solution Architecture
         details: Reference architecture, API and custom app integration, PoC design, SaaS/PaaS design review, security review response
       - label: PreSales Leadership

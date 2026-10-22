@@ -130,8 +130,8 @@ cv:
           - "Administration einer hochverfügbaren Serverlandschaft auf Basis von Microsoft Project Server und SharePoint Server für mehrere tausend Anwender."
 
     Kompetenzen:
-      - label: Enterprise Identity & Security
-        details: Okta Identity Cloud, Auth0, SSO (SAML/OIDC), Zero Trust, Lifecycle & Governance, MFA, PAM
+      - label: Enterprise & Customer Identity
+        details: "Okta Identity Cloud, Auth0 (CIAM), Microsoft Entra ID, SSO (SAML/OIDC), Zero Trust, Lifecycle & Governance, MFA, PAM"
       - label: Lösungsarchitektur
         details: Referenzarchitektur, API- und Custom-App-Integration, PoC-Design, SaaS/PaaS-Architekturprüfung, Security Review
       - label: PreSales-Führung
