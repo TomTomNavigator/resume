@@ -34,7 +34,7 @@ cv:
       - label: Strategie & GTM
         details: "Verantwortung für regionale PreSales-Strategie, operative Umsetzung und technische Win-Rates in DACH und CEE"
       - label: Größter Deal
-        details: "Lead SE im größten regionalen Workforce-Deal zu diesem Zeitpunkt (**1,5 Mio. USD ARR**)"
+        details: "Lead SE im größten regionalen Workforce-Deal zum damaligen Zeitpunkt (**1,5 Mio. USD ARR**)"
       - label: Personalentwicklung
         details: "Beförderungen über alle Karrierestufen (Associate zu SE, SE zu Senior, Senior zu Principal); Coaching von SDRs in SE-Rollen"
 
@@ -49,11 +49,11 @@ cv:
           Gesamtverantwortung für das Solutions Engineering von Okta in CEE als Sr. Manager.
           Kontinuierliche Entwicklung vom Senior SE (2020) über Team Lead (2023) zum Sr. Manager (2024).
           Führung der Organisation bei gleichzeitiger aktiver Begleitung strategischer Großkunden und
-          anspruchsvoller Architekturfragen.
+          technischer Architekturentscheidungen.
         highlights:
           - "Leitung des regionalen Solutions Engineerings als **Sr. Manager** mit **12 direkten Mitarbeitenden** über Commercial-, Enterprise- und Strategic-Segmente für Okta und Auth0."
           - "Verantwortung für die regionale PreSales-Strategie und operative Umsetzung in CEE zur Steigerung der technischen Win-Rate über das gesamte Okta- und Auth0-Portfolio."
-          - "Vorbildfunktion in strategischen Vertriebszyklen: Architekturempfehlungen, Durchführung erfolgskritischer PoCs und Auflösung komplexer technischer Hürden."
+          - "Begleitung strategischer Enterprise-Vertriebsprojekte durch Architekturempfehlungen, Abstimmung auf Executive-Ebene, PoC-Steuerung und Klärung technischer Hürden."
           - "Gezielte Personalentwicklung über alle Karrierestufen (**Associate zu SE, SE zu Senior, Senior zu Principal**) sowie erfolgreiches Mentoring von SDRs in technische SE-Rollen."
           - "Erfolgreicher Teamaufbau in europäischen Märkten (inklusive Schweiz) sowie Auswahl und technische Evaluierung neuer Talente über die **Okta SE Academy**."
 
@@ -68,7 +68,7 @@ cv:
           anschließend Erweiterung des Aufgabenbereichs als Team Lead für Emerging & Corporate CEE
           sowie die Schweiz.
         highlights:
-          - "Lead Solutions Engineer im größten regionalen Workforce-Identity-Abschluss (**1,5 Mio. USD ARR**): Steuerung des Architekturdesigns, des Security Reviews und des finalen Zuschlags."
+          - "Lead Solutions Engineer im zum damaligen Zeitpunkt größten regionalen Workforce-Identity-Abschluss (**1,5 Mio. USD ARR**): Steuerung des Architekturdesigns, des Security Reviews und des finalen Zuschlags."
           - "Regionaler **Microsoft-Compete-SME** zur Unterstützung des Teams in kompetitiven Vertriebszyklen; Etablierung eines erprobten Zusammenarbeitsmodells mit gezieltem Wissenstransfer."
           - "Konzeption und Implementierung komplexer API-Integrationen im Partner-Ökosystem mit Microsoft, Zscaler, CrowdStrike und Mimecast."
           - "Technische Bewertung neuer Bewerber für die **CEE PreSales Academy** im Rahmen praxisorientierter Architektur-Challenges."
@@ -122,7 +122,7 @@ cv:
       - label: Lösungsarchitektur
         details: Referenzarchitektur, API- und Custom-App-Integration, PoC-Design, SaaS/PaaS-Architekturprüfung, Security Review
       - label: PreSales-Führung
-        details: Org design, Recruiting-Prozesse und technische Panels, Coaching, Kapazitäts- und Gebietsplanung, Enablement
+        details: Team-Skalierung & Organisation, Recruiting-Prozesse und technische Panels, Coaching, Kapazitäts- und Gebietsplanung, Enablement
       - label: Vertrieb & Commercial
         details: MEDDICC, Discovery, PoC-Strukturierung, Deal Desk, Preis- und Lizenzmodelle, ARR- und Upsell-Bewegungen
       - label: Ökosystem & Allianzen
