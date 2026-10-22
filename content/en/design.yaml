@@ -11,8 +11,8 @@ design:
 
   page:
     size: a4
-    top_margin: 1.1cm
-    bottom_margin: 1.1cm
+    top_margin: 1.0cm
+    bottom_margin: 1.0cm
     left_margin: 1.3cm
     right_margin: 1.3cm
     show_footer: true
@@ -31,7 +31,7 @@ design:
     # date gutter CV produces rivers and looks worse in print.
     alignment: left
     date_and_location_column_alignment: right
-    line_spacing: 0.56em
+    line_spacing: 0.54em
     font_family:
       body: Source Sans 3
       name: Source Sans 3
@@ -39,10 +39,10 @@ design:
       connections: Source Sans 3
       section_titles: Source Sans 3
     font_size:
-      body: 10pt
+      body: 9.5pt
       name: 26pt
-      headline: 10.5pt
-      connections: 9.5pt
+      headline: 10pt
+      connections: 9pt
       section_titles: 1.3em
     bold:
       section_titles: true
@@ -59,16 +59,17 @@ design:
   section_titles:
     type: with_partial_line
     line_thickness: 0.6pt
-    space_above: 0.38cm
-    space_below: 0.18cm
+    space_above: 0.35cm
+    space_below: 0.16cm
 
   sections:
     allow_page_break: true
-    space_between_regular_entries: 0.8em
-    space_between_text_based_entries: 0.25em
+    space_between_regular_entries: 0.75em
+    space_between_text_based_entries: 0.22em
 
   entries:
     date_and_location_width: 4.2cm
+    degree_width: 1.2cm
     allow_page_break: false
     short_second_row: true
     highlights:

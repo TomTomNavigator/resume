@@ -157,8 +157,8 @@ cv:
         location: München, Deutschland
       - __merge_key__: siemens-apprenticeship
         institution: Siemens AG / ATOS IT Solutions & Services GmbH
-        area: IT-Ausbildung (Fachberater für Integrierte Systeme)
-        degree: IHK-Abschluss & Siemens-Zertifizierung
+        area: IT-Ausbildung, Fachberater für Integrierte Systeme (Siemens-Zertifizierung)
+        degree: IHK
         start_date: 2009-08
         end_date: 2012-07
         location: München, Deutschland

@@ -2,12 +2,7 @@
 # Design - Deutsch / DACH
 #
 # Grundsätzlich dasselbe Layout wie EN, damit beide Sprachversionen visuell
-# austauschbar bleiben. Zwei bewusste Abweichungen:
-#
-#   - 9.5pt statt 10pt Fließtext. Deutsches Text ist rund 20-25 % länger als
-#     englisches; mit 10pt läuft der Lebenslauf auf drei Seiten statt zwei.
-#     9.5pt ist im deutschen Lebenslauf absolut üblich.
-#   - "heute" statt "gegenwärtig" im Datumsformat, siehe settings.yaml.
+# austauschbar bleiben.
 # =============================================================================
 
 design:
@@ -15,8 +10,8 @@ design:
 
   page:
     size: a4
-    top_margin: 1.1cm
-    bottom_margin: 1.1cm
+    top_margin: 1.0cm
+    bottom_margin: 1.0cm
     left_margin: 1.3cm
     right_margin: 1.3cm
     show_footer: true
@@ -61,16 +56,17 @@ design:
   section_titles:
     type: with_partial_line
     line_thickness: 0.6pt
-    space_above: 0.38cm
-    space_below: 0.18cm
+    space_above: 0.35cm
+    space_below: 0.16cm
 
   sections:
     allow_page_break: true
-    space_between_regular_entries: 0.8em
-    space_between_text_based_entries: 0.25em
+    space_between_regular_entries: 0.75em
+    space_between_text_based_entries: 0.22em
 
   entries:
     date_and_location_width: 4.2cm
+    degree_width: 1.2cm
     allow_page_break: false
     short_second_row: true
     highlights:
