@@ -25,21 +25,10 @@ cv:
     Executive Summary:
       - |
         Solutions Engineering leader with 10+ years of experience across enterprise pre-sales,
-        cloud security architecture, and people management. Leading Okta's Solutions Engineering
-        organisation across Central & Eastern Europe as Senior Manager, covering DACH and broader CEE
-        markets for both Okta and Auth0. Manage 12 direct reports across Commercial, Enterprise,
-        and Strategic segments, combining strategic commercial execution with deep technical credibility.
-
-    # ---------------------------------------------------------------- metrics
-    Leadership Snapshot:
-      - label: Team
-        details: "12 direct reports across CEE covering Commercial, Enterprise, and Strategic accounts for Okta and Auth0"
-      - label: Strategy & GTM
-        details: "Directing regional PreSales strategy, operational execution, and technical win rates across DACH and CEE"
-      - label: Largest deal
-        details: "Lead Solutions Engineer on the largest Workforce Identity deal in CEE at the time (**1.5M USD ARR**)"
-      - label: People development
-        details: "Internal promotions across all levels (Associate to SE, SE to Senior, Senior to Principal); coached SDRs into SE roles"
+        cloud security architecture, and regional team leadership. Leading Okta's Solutions Engineering
+        organisation across Central & Eastern Europe, covering DACH and broader CEE markets for both
+        Okta and Auth0. Combines strategic commercial execution and GTM alignment with deep technical
+        credibility and deliberate engineering talent development.
 
     # ------------------------------------------------------------ experience
     Professional Experience:
@@ -167,4 +156,3 @@ cv:
     Awards:
       - "President's Club FY22 and FY23 (Okta)"
       - "EMEA PreSales Rockstar FY23, Technical Hot Shot CEE FY22, Peer Recognition Award FY22 (Okta)"
-      - "#1 Sales Engineer worldwide in 2018 (>200% target); #2 worldwide in 2017 (>300%) and 2019 (>200%) (AvePoint)"

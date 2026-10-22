@@ -22,21 +22,11 @@ cv:
     Kurzprofil:
       - |
         Führungskraft im Bereich Solutions Engineering mit über 10 Jahren Erfahrung in
-        Enterprise-PreSales, Cloud-Sicherheitsarchitektur und technischer Personalführung.
+        Enterprise-PreSales, Cloud-Sicherheitsarchitektur und regionaler Führung.
         Als Senior Manager leite ich den Solutions-Engineering-Bereich von Okta in Zentraleuropa
-        für die Märkte DACH und CEE über die Produktlinien Okta und Auth0. Ich führe 12
-        direkte Mitarbeitende für Commercial-, Enterprise- und Strategic-Accounts und verbinde
-        strategische Vertriebssteuerung mit fundierter technischer Glaubwürdigkeit.
-
-    Kennzahlen:
-      - label: Team
-        details: "12 direkte Mitarbeitende in CEE für Commercial-, Enterprise- und Strategic-Accounts über Okta und Auth0"
-      - label: Strategie & GTM
-        details: "Verantwortung für regionale PreSales-Strategie, operative Umsetzung und technische Win-Rates in DACH und CEE"
-      - label: Größter Deal
-        details: "Lead SE im größten regionalen Workforce-Deal zum damaligen Zeitpunkt (**1,5 Mio. USD ARR**)"
-      - label: Personalentwicklung
-        details: "Beförderungen über alle Karrierestufen (Associate zu SE, SE zu Senior, Senior zu Principal); Coaching von SDRs in SE-Rollen"
+        für die Märkte DACH und CEE über die Produktlinien Okta und Auth0. Ich verbinde
+        strategische Vertriebssteuerung und GTM-Alignment mit fundierter technischer Glaubwürdigkeit
+        und gezielter Personalentwicklung.
 
     Berufserfahrung:
       - __merge_key__: okta-leadership
@@ -158,4 +148,3 @@ cv:
     Auszeichnungen:
       - "President's Club FY22 und FY23 (Okta)"
       - "EMEA PreSales Rockstar FY23, Technical Hot Shot CEE FY22, Peer Recognition Award FY22 (Okta)"
-      - "#1 Sales Engineer weltweit 2018 (>200 % Zielerreichung); #2 weltweit 2017 (>300 %) und 2019 (>200 %) (AvePoint)"
