@@ -1,10 +1,10 @@
 # =============================================================================
-# Thomas Heinz — Basis-Lebenslauf (Deutsch)
+# Thomas Heinz: Basis-Lebenslauf (Deutsch)
 #
 # Eigenständige Datei, keine Übersetzung per Skript: deutscher Lebenslauf-Stil
 # funktioniert nicht durch wörtliche Übertragung. Deutsche Lebensläufe sind
 # stärker sachlich-faktisch formuliert, datieren konsequenter (MM/YYYY) und
-# erwarten ein Foto — das ist hier berücksichtigt.
+# erwarten ein Foto (das ist hier berücksichtigt).
 #
 # Diese Datei ist eigenständig: sie überschreibt NICHT content/en/base.yaml,
 # sondern wird als eigene Sprachvariante gebaut. Änderungen hier landen
@@ -33,36 +33,25 @@ cv:
 
     Kurzprofil:
       - |
-        Führungskraft im Bereich Solutions Engineering mit über 10 Jahren Erfahrung an der
-        Schnittstelle von Enterprise-Vertrieb, Lösungsarchitektur und Teamführung. Ich leite
-        den Solutions-Engineering-Bereich von Okta für Zentraleuropa in kommissarischer
-        Director-of-PreSales-Funktion — für Deutschland, Österreich, die Schweiz
-        sowie weitere CEE-Märkte, sowohl für das Okta- als auch das Auth0-Geschäft. Ich führe
-        eine Organisation von 12 direkten Mitarbeitenden und habe drei Karrierepfade etabliert: Core
-        Solutions Engineers, Auth0-Spezialisten und EMEA-weite Solution Architects. Dabei
-        halte ich die technische Nähe bewusst aufrecht.
+        Führungskraft im Bereich Solutions Engineering mit über 10 Jahren Erfahrung in
+        Enterprise-PreSales, Cloud-Sicherheitsarchitektur und technischer Personalführung.
+        Aktuell leite ich den Solutions-Engineering-Bereich von Okta in Zentraleuropa als
+        kommissarischer Director of PreSales für die Märkte DACH und CEE über die Produktlinien
+        Okta und Auth0. Ich führe ein Team von 12 Spezialisten in drei strukturierten
+        Karrierepfaden (Core SE, Auth0-Spezialisten, EMEA Solution Architects) und verbinde
+        strategische Vertriebssteuerung mit fundierter technischer Glaubwürdigkeit.
 
     Kennzahlen:
       - label: Team
-        details: 12 direkte Mitarbeitende in CEE — dedizierte Okta- und Auth0-SEs für Commercial-, Enterprise- und Strategic-Accounts
+        details: "12 direkte Mitarbeitende in CEE für Commercial-, Enterprise- und Strategic-Accounts über Okta und Auth0"
       - label: Organisationsdesign
-        details: 12-köpfige Organisation in Core-SE-, Auth0-Spezialisten- und EMEA-Architect-Streams gegliedert
-
+        details: "Gliederung in drei spezialisierte Streams: Core SE, Auth0-Spezialisten und EMEA Solution Architects"
       - label: Größter Deal
-        details: Lead SE im größten Workforce-Deal der CEE-Region zu diesem Zeitpunkt — **1,5 Mio. USD ARR**
-
-      - label: Förderung
-        details: Beförderungen auf allen Ebenen — Associate→SE, SE→Senior, Senior→Principal; SDRs in SE-Rollen gecoacht
+        details: "Lead SE im größten regionalen Workforce-Deal zu diesem Zeitpunkt (**1,5 Mio. USD ARR**)"
+      - label: Personalentwicklung
+        details: "Beförderungen über alle Karrierestufen (Associate zu SE, SE zu Senior, Senior zu Principal); Coaching von SDRs in SE-Rollen"
 
     Berufserfahrung:
-      # Der bisherige Lebenslauf führte drei überlappende Okta-Rollen auf,
-      # darunter "Senior Solutions Engineer, März 2020 - heute" parallel zur
-      # Führungsrolle. Das wirkt wie drei parallele Jobs bei einem Arbeitgeber
-      # und vervielfacht vier Jahre. Hier zu einer Position zusammengeführt.
-      # Die tatsächliche Entwicklung war aufeinanderfolgend und wird jetzt als
-      # die Beförderungskette dargestellt, die sie war:
-      # Senior SE (Mär 2020) -> Team Lead (Feb 2023) -> Sr. Manager (Feb 2024)
-      # -> kommissarische Director-of-PreSales-Funktion.
       - __merge_key__: okta-leadership
         company: Okta
         position: Sr. Manager Solutions Engineering, Central & Eastern Europe (kommissarisch Director of PreSales)
@@ -70,19 +59,18 @@ cv:
         end_date: present
         location: München, Deutschland
         summary: |
-          Eintritt bei Okta als Senior Solutions Engineer im März 2020, Wechsel in die Rolle
-          Team Lead für Emerging & Corporate CEE sowie Team Lead Solutions Engineering Schweiz
-          im Februar 2023, Beförderung zum Sr. Manager im Februar 2024. Heute leite ich den
-          gesamten Solutions-Engineering-Bereich der CEE-Region kommissarisch als Director und
-          bleibe in komplexen Vertriebszyklen und strategischen Accounts hands-on aktiv.
+          Gesamtverantwortung für das Solutions Engineering von Okta in CEE als kommissarischer Director.
+          Kontinuierliche Entwicklung vom Senior SE (2020) über Team Lead (2023) zum Sr. Manager (2024).
+          Führung der Organisation bei gleichzeitiger aktiver Begleitung strategischer Großkunden und
+          anspruchsvoller Architekturfragen.
         highlights:
-          - "Leitung des gesamten Solutions-Engineering-Bereichs der CEE-Region in **kommissarischer Director-Funktion** — **12 direkte Mitarbeitende** (davon dedizierte Okta- und Auth0-SEs) für Commercial-, Enterprise- und Strategic-Accounts."
-          - "Steuerung der regionalen PreSales-Strategie und -Operations für die gesamte CEE-Region, sowohl für die Okta- als auch die Auth0-Linie — verantwortlich für technische Wins, strategische Ausrichtung und Umsetzung."
-          - "Lead Solutions Engineer im größten Workforce-Identity-Deal der CEE-Region zu diesem Zeitpunkt — **1,5 Mio. USD ARR** — von Architekturdesign über Security Review bis zum gemeinsamen Abschluss."
-          - "Vorne führen: Mitwirkung in komplexen Vertriebszyklen, Beratung bei Architekturdesigns, Durchführung anspruchsvoller PoCs sowie Beseitigung technischer Hürden für das Team."
-          - "Interne Entwicklung über alle Hierarchieebenen hinweg — **Associate zu SE, SE zu Senior, Senior zu Principal** — sowie erfolgreiches Coaching von SDRs in technische Solutions-Engineering-Rollen."
-          - "Verantwortung für Recruiting in europäischen Märkten (einschließlich der Schweiz) sowie Einstellung von 2 SEs für die **Okta SE Academy**, inklusive Leitung der technischen Assessments."
-          - "Regionaler **Microsoft-Compete-SME**: Führung des Teams durch anspruchsvolle kompetitive Vertriebszyklen und Architekturdiskussionen; zudem Konzeption des verteilten Arbeitsmodells mit montäglichen Slack-Check-ins und Zoom-Lightning-Talks."
+          - "Leitung des regionalen Solutions Engineerings als **kommissarischer Director of PreSales** mit **12 direkten Mitarbeitenden** über Commercial-, Enterprise- und Strategic-Segmente für Okta und Auth0."
+          - "Verantwortung für die regionale PreSales-Strategie und operative Umsetzung in CEE zur Steigerung der technischen Win-Rate über das gesamte Okta- und Auth0-Portfolio."
+          - "Lead Solutions Engineer im größten regionalen Workforce-Identity-Abschluss (**1,5 Mio. USD ARR**): Steuerung des Architekturdesigns, des Security Reviews und des finalen Zuschlags."
+          - "Vorbildfunktion in strategischen Vertriebszyklen: Architekturempfehlungen, Durchführung erfolgskritischer PoCs und Auflösung komplexer technischer Hürden."
+          - "Gezielte Personalentwicklung über alle Karrierestufen (**Associate zu SE, SE zu Senior, Senior zu Principal**) sowie erfolgreiches Mentoring von SDRs in technische SE-Rollen."
+          - "Erfolgreicher Teamaufbau in europäischen Märkten (inklusive Schweiz) sowie Auswahl und technische Evaluierung neuer Talente über die **Okta SE Academy**."
+          - "Regionaler **Microsoft-Compete-SME** zur Unterstützung des Teams in kompetitiven Vertriebszyklen; Etablierung eines erprobten Zusammenarbeitsmodells mit gezieltem Wissenstransfer."
 
       - __merge_key__: okta-senior-se-precursor
         company: Okta
@@ -91,13 +79,13 @@ cv:
         end_date: 2024-02
         location: München, Deutschland
         summary: |
-          Senior SE für die Identity Cloud von Okta mit Enterprise-Kunden an der Seite,
-          anschließend Team Lead für Emerging & Corporate in CEE sowie Team Lead Solutions
-          Engineering Schweiz.
+          Betreuung von Enterprise-Kunden bei Identitäts- und Zero-Trust-Architekturen,
+          anschließend Erweiterung des Aufgabenbereichs als Team Lead für Emerging & Corporate CEE
+          sowie die Schweiz.
         highlights:
-          - "Aufbau tiefgreifender technischer Expertise im breiten Partner-Ökosystem, Entwicklung komplexer API-Integrationen mit Microsoft, Zscaler, CrowdStrike und Mimecast."
-          - "Recruiting für die **CEE PreSales Academy** und Leitung der technischen Assessments (Tech Challenges) für neue Kandidaten."
-          - "Mentor und Onboarding-Buddy für zahlreiche Solutions Engineers in Core- und Alliances-Teams."
+          - "Konzeption und Implementierung komplexer API-Integrationen im Partner-Ökosystem mit Microsoft, Zscaler, CrowdStrike und Mimecast."
+          - "Technische Bewertung neuer Bewerber für die **CEE PreSales Academy** im Rahmen praxisorientierter Architektur-Challenges."
+          - "Mentoring und strukturiertes Onboarding neuer Solutions Engineers im Core- und Alliances-Bereich."
 
       - __merge_key__: avepoint-senior-se
         company: AvePoint
@@ -106,13 +94,12 @@ cv:
         end_date: 2020-03
         location: München, Deutschland
         summary: |
-          Senior-PreSales-Rolle sowie Microsoft Partner Technical Sales Professional für AvePoint
-          mit Schwerpunkt Microsoft 365: Cloud-Backup für Microsoft und Salesforce, Cloud
-          Governance sowie die Governance- und Backup-Landschaft on-premises für SharePoint.
+          Senior-PreSales-Rolle und Microsoft Partner Technical Sales Professional (P-TSP) für
+          Microsoft 365 Cloud-Backup, Governance, Salesforce-Datensicherung und hybride SharePoint-Umgebungen.
         highlights:
-          - "#2 Sales Engineer weltweit im Jahr 2019, mit über 200 % der Zielvorgabe."
-          - "Technischer Trusted Advisor für AvePoint und für die unterstützten Microsoft-Produktfamilien, einschließlich gemeinsamer Positionierung gegenüber Kunden."
-          - "Begleitung von Migrations- und Governance-Fragestellungen bei Kunden auf dem Weg von on-premises SharePoint zu vollständiger Microsoft 365."
+          - "#2 Sales Engineer weltweit im Jahr 2019 mit über 200 % Zielerreichung."
+          - "Technischer Trusted Advisor für AvePoint und Microsoft mit gemeinsamer Kundenpositionierung an der Seite regionaler Microsoft-Vertriebsteams."
+          - "Beratung von Enterprise-Kunden bei Migrations- und Governance-Projekten von on-premises SharePoint in die Microsoft Cloud."
 
       - __merge_key__: avepoint-tsp
         company: AvePoint
@@ -121,33 +108,26 @@ cv:
         end_date: 2018-12
         location: München, Deutschland
         summary: |
-          Einstieg in den PreSales-Bereich. Beginn mit der on-premises AvePoint DocAve
-          Management-Software für SharePoint, danach Ausweitung auf Microsoft-Cloud-Deployments,
-          abgesichert über die SaaS-Lösung AvePoint Online Services.
+          Einstieg in den technischen Vertrieb für SharePoint-Infrastrukturmanagement (DocAve)
+          und Begleitung erster Kundenmigrationen auf die AvePoint Online Services SaaS-Plattform.
         highlights:
-          - "#1 Sales Engineer weltweit im Jahr 2018 (>200 % Zielerreichung); #2 weltweit im Jahr 2017 (>300 % Zielerreichung)."
-          - "Verantwortung für den Übergang vom on-premises DocAve Management zur SaaS-Variante AvePoint Online Services und damit für die Hinwendung der Accounts zu wiederkehrenden Subscription-Umsätzen."
-          - "Durchführung von technischer Analyse, Scoping und PoC-Betreuung für SharePoint- und Microsoft-365-Landschaften."
+          - "#1 Sales Engineer weltweit 2018 (>200 % Zielerreichung) sowie #2 weltweit 2017 (>300 % Zielerreichung)."
+          - "Begleitung der Transformation von on-premises Software zu wiederkehrenden SaaS-Abonnementmodellen."
+          - "Durchführung von technischer Discovery, Scoping und praktischen PoCs für Enterprise-Kunden."
 
-      # Der bisherige Lebenslauf hatte hier eine Lücke von 2012 bis 2016 und
-      # erwähnte diese Position nur beiläufig im Fließtext — ohne eigenen
-      # Eintrag. Jetzt aufgelöst. PSoD war ein internes *Abonnement*-Produkt
-      # mit automatischer Abrechnung — ein deutlich besserer Anschluss an eine
-      # SaaS-Solutions-Engineering-Laufbahn, als der alte Lebenslauf daraus
-      # gemacht hat.
       - __merge_key__: psod-sharepoint
         company: ATOS IT Solutions & Services GmbH
-        position: IT Engineer — Application Management
+        position: IT Engineer, Application Management
         start_date: 2012-06
         end_date: 2016-04
         location: München, Deutschland
         summary: |
-          Applikationsmanagement für Microsoft Project Server und SharePoint Server sowie
-          Mitarbeit im Team für PSoD — „Project Service on Demand" — einen internen
-          Abonnement-Dienst mit automatischer Abrechnung und eigenen Reporting-Dashboards.
+          Betrieb und Anwendungsmanagement für Microsoft Project Server und SharePoint Server.
+          Mitarbeit bei Project Service on Demand (PSoD), einem internen Abrechnungs- und
+          Abonnement-Service mit automatisiertem Reporting.
         highlights:
-          - "Mitarbeit an PSoD inklusive automatisiertem Abrechnungsagenten und Reporting-Dashboards — frühe Praxiserfahrung mit Abonnement-Erbringung, Verbrauchsabrechnung und kommerzieller Paketierung."
-          - "Administration und Support einer Multi-Farm-Landschaft auf Basis von Microsoft Project Server und SharePoint Server für mehrere tausend Enterprise-Anwender."
+          - "Entwicklung von Komponenten zur automatisierten Verbrauchsabrechnung und Reporting für PSoD mit früher Erfahrung in wiederkehrenden Abrechnungsmodellen."
+          - "Administration einer hochverfügbaren Serverlandschaft auf Basis von Microsoft Project Server und SharePoint Server für mehrere tausend Anwender."
 
     Kompetenzen:
       - label: Enterprise Identity & Security
@@ -156,7 +136,7 @@ cv:
         details: Referenzarchitektur, API- und Custom-App-Integration, PoC-Design, SaaS/PaaS-Architekturprüfung, Security Review
       - label: PreSales-Führung
         details: Organisationsdesign, Recruiting-Prozesse und technische Panels, Coaching, Kapazitäts- und Gebietsplanung, Enablement
-      - label: Vertrieb
+      - label: Vertrieb & Commercial
         details: MEDDICC, Discovery, PoC-Strukturierung, Deal Desk, Preis- und Lizenzmodelle, ARR- und Upsell-Bewegungen
       - label: Ökosystem & Allianzen
         details: Microsoft (M365 SME, Compete), Zscaler, CrowdStrike, Mimecast, ISV- und Channel-Partner
@@ -164,8 +144,6 @@ cv:
         details: Microsoft 365, Azure, AWS, SaaS/PaaS, Container, on-premises SharePoint
       - label: Führung & Strategie
         details: Stakeholder-Management von C-Level bis Engineering, GTM-Alignment, DACH- und CEE-Marktdynamik
-      # Sprachen stehen hier statt in einem eigenen Abschnitt: eine eigene
-      # Überschrift kostet Platz für eine Zeile Information.
       - label: Sprachen
         details: "Deutsch (Muttersprache) · Englisch (verhandlungssicher)"
 
@@ -179,18 +157,18 @@ cv:
         location: München, Deutschland
       - __merge_key__: siemens-apprenticeship
         institution: Siemens AG / ATOS IT Solutions & Services GmbH
-        area: IT-Ausbildung — Fachberater für Integrierte Systeme
+        area: IT-Ausbildung (Fachberater für Integrierte Systeme)
         degree: IHK-Abschluss & Siemens-Zertifizierung
         start_date: 2009-08
         end_date: 2012-07
         location: München, Deutschland
 
     Vorträge, Beiträge & Community:
-      - "Technischer Blog — [thomasheinz.net](https://thomasheinz.net); unregelmäßige Beiträge zu Identity, Automatisierung und eigener Infrastruktur."
-      - "Medien- und PR-Sprecher sowie Vorträge für Okta: Fachinterviews (u. a. *Der Aktionär*), Event-Auftritte, Panel-Moderationen und User-Group-Formate."
-      - "Aktiv in der PreSales-Community: Mitglied bei **PreSales Collective** (seit 2020) und bei **Presales & Pretzels** SE Networking München (seit 2022)."
+      - "Technischer Blog: [thomasheinz.net](https://thomasheinz.net) mit Beiträgen zu Identity Security, Automatisierung und Infrastruktur."
+      - "Sprecher und Medienvertreter für Okta: Fachinterviews (u. a. *Der Aktionär*), Vorträge auf Branchenevents, Panel-Moderationen und User-Group-Formate."
+      - "Aktives Mitglied der PreSales-Community bei **PreSales Collective** (seit 2020) und **Presales & Pretzels** München (seit 2022)."
 
     Auszeichnungen:
-      - "President's Club FY22 und FY23 — Okta"
-      - "EMEA PreSales Rockstar FY23; Technical Hot Shot CEE FY22; Peer Recognition FY22 — Okta"
-      - "#1 Sales Engineer weltweit 2018 (>200 % Zielerreichung); #2 weltweit 2017 (>300 %) und 2019 (>200 %) — AvePoint"
+      - "President's Club FY22 und FY23 (Okta)"
+      - "EMEA PreSales Rockstar FY23, Technical Hot Shot CEE FY22, Peer Recognition Award FY22 (Okta)"
+      - "#1 Sales Engineer weltweit 2018 (>200 % Zielerreichung); #2 weltweit 2017 (>300 %) und 2019 (>200 %) (AvePoint)"
