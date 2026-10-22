@@ -16,6 +16,7 @@ design:
     left_margin: 1.3cm
     right_margin: 1.3cm
     show_footer: true
+    show_top_note: false
 
   colors:
     body: rgb(0, 0, 0)
@@ -27,8 +28,6 @@ design:
     footer: rgb(120, 120, 120)
 
   typography:
-    # Left-aligned body rather than justified: justified text in a two-column
-    # date gutter CV produces rivers and looks worse in print.
     alignment: left
     date_and_location_column_alignment: right
     line_spacing: 0.54em
@@ -55,6 +54,8 @@ design:
     alignment: center
     photo_width: 3.2cm
     photo_position: left
+    connections:
+      phone_number_format: international
 
   section_titles:
     type: with_partial_line
@@ -78,4 +79,4 @@ design:
       space_between_items: 0.04cm
 
   templates:
-    top_note: '*LAST_UPDATED CURRENT_DATE*'
+    top_note: ''

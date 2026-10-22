@@ -15,6 +15,7 @@ design:
     left_margin: 1.3cm
     right_margin: 1.3cm
     show_footer: true
+    show_top_note: false
 
   colors:
     body: rgb(0, 0, 0)
@@ -52,6 +53,8 @@ design:
     alignment: center
     photo_width: 3.2cm
     photo_position: left
+    connections:
+      phone_number_format: international
 
   section_titles:
     type: with_partial_line
@@ -75,4 +78,4 @@ design:
       space_between_items: 0.04cm
 
   templates:
-    top_note: '*LAST_UPDATED CURRENT_DATE*'
+    top_note: ''

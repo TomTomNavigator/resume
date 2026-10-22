@@ -1,25 +1,13 @@
 # =============================================================================
 # Thomas Heinz: Basis-Lebenslauf (Deutsch)
-#
-# Eigenständige Datei, keine Übersetzung per Skript: deutscher Lebenslauf-Stil
-# funktioniert nicht durch wörtliche Übertragung. Deutsche Lebensläufe sind
-# stärker sachlich-faktisch formuliert, datieren konsequenter (MM/YYYY) und
-# erwarten ein Foto (das ist hier berücksichtigt).
-#
-# Diese Datei ist eigenständig: sie überschreibt NICHT content/en/base.yaml,
-# sondern wird als eigene Sprachvariante gebaut. Änderungen hier landen
-# deshalb nur in den DE-Varianten.
-#
-# Platzhalter-Regeln: kurz halten (siehe Kopf von content/en/base.yaml),
-# ausführliche Fragen stehen in REVIEW.md.
 # =============================================================================
 
 cv:
   name: Thomas Heinz
-  headline: Sr. Manager Solutions Engineering, kommissarischer Director of PreSales (CEE)
+  headline: Sr. Manager Solutions Engineering, Central & Eastern Europe
   location: München, Deutschland
   email: hallo@thomasheinz.net
-  phone: "+491736376829"
+  phone: "+491726376829"
   website: https://thomasheinz.net
   photo: assets/thomas.png
   social_networks:
@@ -35,17 +23,16 @@ cv:
       - |
         Führungskraft im Bereich Solutions Engineering mit über 10 Jahren Erfahrung in
         Enterprise-PreSales, Cloud-Sicherheitsarchitektur und technischer Personalführung.
-        Aktuell leite ich den Solutions-Engineering-Bereich von Okta in Zentraleuropa als
-        kommissarischer Director of PreSales für die Märkte DACH und CEE über die Produktlinien
-        Okta und Auth0. Ich führe ein Team von 12 Spezialisten in drei strukturierten
-        Karrierepfaden (Core SE, Auth0-Spezialisten, EMEA Solution Architects) und verbinde
+        Als Senior Manager leite ich den Solutions-Engineering-Bereich von Okta in Zentraleuropa
+        für die Märkte DACH und CEE über die Produktlinien Okta und Auth0. Ich führe 12
+        direkte Mitarbeitende für Commercial-, Enterprise- und Strategic-Accounts und verbinde
         strategische Vertriebssteuerung mit fundierter technischer Glaubwürdigkeit.
 
     Kennzahlen:
       - label: Team
         details: "12 direkte Mitarbeitende in CEE für Commercial-, Enterprise- und Strategic-Accounts über Okta und Auth0"
-      - label: Organisationsdesign
-        details: "Gliederung in drei spezialisierte Streams: Core SE, Auth0-Spezialisten und EMEA Solution Architects"
+      - label: Strategie & GTM
+        details: "Verantwortung für regionale PreSales-Strategie, operative Umsetzung und technische Win-Rates in DACH und CEE"
       - label: Größter Deal
         details: "Lead SE im größten regionalen Workforce-Deal zu diesem Zeitpunkt (**1,5 Mio. USD ARR**)"
       - label: Personalentwicklung
@@ -54,23 +41,21 @@ cv:
     Berufserfahrung:
       - __merge_key__: okta-leadership
         company: Okta
-        position: Sr. Manager Solutions Engineering, Central & Eastern Europe (kommissarisch Director of PreSales)
+        position: Sr. Manager Solutions Engineering, Central & Eastern Europe
         start_date: 2024-02
         end_date: present
         location: München, Deutschland
         summary: |
-          Gesamtverantwortung für das Solutions Engineering von Okta in CEE als kommissarischer Director.
+          Gesamtverantwortung für das Solutions Engineering von Okta in CEE als Sr. Manager.
           Kontinuierliche Entwicklung vom Senior SE (2020) über Team Lead (2023) zum Sr. Manager (2024).
           Führung der Organisation bei gleichzeitiger aktiver Begleitung strategischer Großkunden und
           anspruchsvoller Architekturfragen.
         highlights:
-          - "Leitung des regionalen Solutions Engineerings als **kommissarischer Director of PreSales** mit **12 direkten Mitarbeitenden** über Commercial-, Enterprise- und Strategic-Segmente für Okta und Auth0."
+          - "Leitung des regionalen Solutions Engineerings als **Sr. Manager** mit **12 direkten Mitarbeitenden** über Commercial-, Enterprise- und Strategic-Segmente für Okta und Auth0."
           - "Verantwortung für die regionale PreSales-Strategie und operative Umsetzung in CEE zur Steigerung der technischen Win-Rate über das gesamte Okta- und Auth0-Portfolio."
-          - "Lead Solutions Engineer im größten regionalen Workforce-Identity-Abschluss (**1,5 Mio. USD ARR**): Steuerung des Architekturdesigns, des Security Reviews und des finalen Zuschlags."
           - "Vorbildfunktion in strategischen Vertriebszyklen: Architekturempfehlungen, Durchführung erfolgskritischer PoCs und Auflösung komplexer technischer Hürden."
           - "Gezielte Personalentwicklung über alle Karrierestufen (**Associate zu SE, SE zu Senior, Senior zu Principal**) sowie erfolgreiches Mentoring von SDRs in technische SE-Rollen."
           - "Erfolgreicher Teamaufbau in europäischen Märkten (inklusive Schweiz) sowie Auswahl und technische Evaluierung neuer Talente über die **Okta SE Academy**."
-          - "Regionaler **Microsoft-Compete-SME** zur Unterstützung des Teams in kompetitiven Vertriebszyklen; Etablierung eines erprobten Zusammenarbeitsmodells mit gezieltem Wissenstransfer."
 
       - __merge_key__: okta-senior-se-precursor
         company: Okta
@@ -83,6 +68,8 @@ cv:
           anschließend Erweiterung des Aufgabenbereichs als Team Lead für Emerging & Corporate CEE
           sowie die Schweiz.
         highlights:
+          - "Lead Solutions Engineer im größten regionalen Workforce-Identity-Abschluss (**1,5 Mio. USD ARR**): Steuerung des Architekturdesigns, des Security Reviews und des finalen Zuschlags."
+          - "Regionaler **Microsoft-Compete-SME** zur Unterstützung des Teams in kompetitiven Vertriebszyklen; Etablierung eines erprobten Zusammenarbeitsmodells mit gezieltem Wissenstransfer."
           - "Konzeption und Implementierung komplexer API-Integrationen im Partner-Ökosystem mit Microsoft, Zscaler, CrowdStrike und Mimecast."
           - "Technische Bewertung neuer Bewerber für die **CEE PreSales Academy** im Rahmen praxisorientierter Architektur-Challenges."
           - "Mentoring und strukturiertes Onboarding neuer Solutions Engineers im Core- und Alliances-Bereich."
@@ -135,7 +122,7 @@ cv:
       - label: Lösungsarchitektur
         details: Referenzarchitektur, API- und Custom-App-Integration, PoC-Design, SaaS/PaaS-Architekturprüfung, Security Review
       - label: PreSales-Führung
-        details: Organisationsdesign, Recruiting-Prozesse und technische Panels, Coaching, Kapazitäts- und Gebietsplanung, Enablement
+        details: Org design, Recruiting-Prozesse und technische Panels, Coaching, Kapazitäts- und Gebietsplanung, Enablement
       - label: Vertrieb & Commercial
         details: MEDDICC, Discovery, PoC-Strukturierung, Deal Desk, Preis- und Lizenzmodelle, ARR- und Upsell-Bewegungen
       - label: Ökosystem & Allianzen
