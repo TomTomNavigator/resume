@@ -104,8 +104,8 @@ cv:
         location: Munich, Germany
         summary: |
           Managed enterprise application operations for Microsoft Project Server and SharePoint Server.
-          Contributed to Project Service on Demand (PSoD), an internal subscription service with automated
-          metering and custom reporting.
+          Contributed to Project Service on Demand (PSoD), an internal subscription service with
+          automated metering and custom reporting.
         highlights:
           - "Contributed to PSoD automated billing components and executive reporting dashboards, gaining early experience with subscription delivery models and usage metering."
           - "Administered a high-availability Microsoft Project Server and SharePoint Server environment serving thousands of enterprise users."
@@ -149,8 +149,8 @@ cv:
     # --------------------------------------------------------------- speaking
     Speaking, Writing & Community:
       - "Technical blog: [thomasheinz.net](https://thomasheinz.net), publishing practical articles on identity security, automation, and infrastructure."
-      - "Speaker and media spokesperson for Okta, delivering industry interviews (e.g. *Der Aktionär*), keynote presentations, panel sessions, and customer roundtables."
-      - "Active member of the PreSales community, participating in **PreSales Collective** (since 2020) and **Presales & Pretzels** Munich (since 2022)."
+      - "Speaker and media spokesperson for Okta, delivering industry interviews (e.g. *Der Aktionär*), keynote presentations, panel sessions, and customer roundtables (for example CTO Craft, Oktane on the Road, AI Forums)."
+      - "Active member of the PreSales community, participating in **PreSales Collective** (since 2020), **Presales & Pretzels** Munich (since 2022), and **SE Rockstars**."
 
     # ----------------------------------------------------------------- awards
     Awards:
