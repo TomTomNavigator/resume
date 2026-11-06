@@ -1,0 +1,55 @@
+# =============================================================================
+# Variant — Director, Solutions Engineering (English)
+#
+# Target: Internal promotion / appointment to Director of Solutions Engineering,
+# Central & Eastern Europe at Okta.
+#
+# Core angle: De facto Director leadership since February 2024. Elevates the
+# narrative from frontline engineering management to regional GTM strategy,
+# multi-segment org architecture, executive deal sponsorship, and ARR growth
+# across Okta + Auth0.
+# =============================================================================
+
+name: Director (EN)
+lang: en
+
+cv:
+  headline: Director of Solutions Engineering, Central & Eastern Europe
+
+  sections:
+    Executive Summary:
+      - |
+        Solutions Engineering executive and regional leader with 10+ years driving enterprise pre-sales,
+        cloud security architecture, and high-performance engineering organizations. Leading Okta's
+        Solutions Engineering organization across Central & Eastern Europe, directing regional PreSales strategy
+        and GTM execution for both Okta Workforce Identity and Auth0 Customer Identity Cloud. Proven record of
+        scaling technical talent, partnering with sales leadership on multi-million-dollar ARR motions, and
+        serving as executive sponsor for strategic accounts across DACH and CEE.
+
+    Professional Experience:
+      - __merge_key__: okta-leadership
+        summary: |
+          Direct Okta's Solutions Engineering organization across Central & Eastern Europe, operating at Director
+          scope since February 2024. Steer regional PreSales strategy, capacity planning, and technical win rates
+          across Commercial, Enterprise, and Strategic tiers while shaping the multi-product Okta and Auth0 GTM motion.
+        highlights:
+          - "Direct regional Solutions Engineering across **Central & Eastern Europe**, leading **12 direct reports** spanning Commercial, Enterprise, and Strategic customer segments for both Okta and Auth0."
+          - "Function as the regional PreSales business owner: partnering with Sales AVPs and Regional Directors to align territory coverage, drive technical conversion, and forecast multi-product pipeline."
+          - "Serve as executive technical sponsor and escalation authority for marquee CEE opportunities, accelerating multi-year enterprise agreements and resolving architectural blockers."
+          - "Architected the regional talent progression framework, delivering internal promotions at every level (**Associate to SE, SE to Senior, Senior to Principal**) and establishing the CEE **SE Academy** talent pipeline."
+          - "Spearheaded regional integration of Okta Workforce and Auth0 CIAM portfolios, ensuring cross-enablement and solution positioning against competitor platforms (regional Microsoft Compete lead)."
+          - "Active external ambassador: public spokesperson, media interviews (*Der Aktionär*), and keynote speaker at CTO Craft, Oktane on the Road, and executive roundtables."
+
+    Core Competencies:
+      - label: Regional Org Leadership
+        details: Multi-tier org design, capacity & territory modeling, hiring loops, career architecture (Associate to Principal), enablement
+      - label: GTM & Commercial Execution
+        details: Multi-product portfolio strategy (Okta + Auth0), AVP/Sales alignment, MEDDICC governance, deal desk, ARR growth motions
+      - label: Executive Architecture & Sponsorship
+        details: C-level engagement, board-level trust, Zero Trust reference architectures, high-stakes security & compliance reviews
+      - label: Enterprise Identity & Cloud
+        details: Workforce Identity Cloud, Customer Identity (Auth0 CIAM), Identity Governance (OIG), Privileged Access (PAM), SSO/MFA
+      - label: Ecosystem & Compete
+        details: Microsoft Compete SME, strategic alliances (Zscaler, CrowdStrike, AWS, Mimecast), channel partner alignment
+      - label: Market Presence & Evangelism
+        details: Keynotes, roundtables, media spokesperson, community leadership (PreSales Collective, Presales & Pretzels)
